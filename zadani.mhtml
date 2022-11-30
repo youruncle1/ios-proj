@@ -1,0 +1,2968 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: file:///C:/Users/rotmu/Desktop/FIT/1.BIT/2.SEM/IOS/ios-proj/zadani.html
+Subject: =?utf-8?Q?1.=20=C3=9Aloha=20IOS=20(2022)?=
+Date: Wed, 30 Nov 2022 11:25:04 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--b9XCuGcNnMxtkI3itxkbtlE7Qp07ojb7IMZxIgKzyq----"
+
+
+------MultipartBoundary--b9XCuGcNnMxtkI3itxkbtlE7Qp07ojb7IMZxIgKzyq----
+Content-Type: text/html
+Content-ID: <frame-B18FC6AC88320A89AE576EBBD766B309@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/Users/rotmu/Desktop/FIT/1.BIT/2.SEM/IOS/ios-proj/zadani.html
+
+<!DOCTYPE html><!-- saved from url=3D(0093)https://www.fit.vutbr.cz/study/c=
+ourses/IOS/private/Lab/projekty/projekt1/ios22-projekt-1.html --><html><hea=
+d><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">=
+<link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-7010c759-cc21-48=
+ff-9e85-79b2b0613fbb@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/c=
+ss" href=3D"cid:css-673b0ba6-3419-4e69-a1eb-113805724112@mhtml.blink" /><li=
+nk rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-afe55c96-1ce8-45ed-=
+9350-1e4b0cb22d0d@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css"=
+ href=3D"cid:css-463126cf-769e-457d-b40a-83700d113d5c@mhtml.blink" /><link =
+rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-a650a2b4-aa70-4544-87a=
+2-85bc3dc8fef3@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" hr=
+ef=3D"cid:css-b65fab3d-433f-4820-8ccb-b107862db8ec@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-bc3b8efa-5c65-405c-8e6d-4=
+52ecac2697b@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-e25464f3-944d-489c-9a43-d6da330e313e@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-296d579e-26fa-4c0a-add5-e=
+90cc0b5ea14@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-a9a06b9d-f990-46ff-8d2f-68bc17c012c6@mhtml.blink" />
+     =20
+      <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scal=
+e=3D1, shrink-to-fit=3Dno">
+      <meta name=3D"generator" content=3D"pandoc">
+     =20
+     =20
+      <title>1. =C3=9Aloha IOS (2022)</title>
+      <!-- Bootstrap -->
+      <link rel=3D"stylesheet" href=3D"file:///C:/Users/rotmu/Desktop/FIT/1=
+.BIT/2.SEM/IOS/ios-proj/zadani_files/bootstrap.min.css" crossorigin=3D"anon=
+ymous">
+      <!-- Font-awesome -->
+      <link rel=3D"stylesheet" href=3D"file:///C:/Users/rotmu/Desktop/FIT/1=
+.BIT/2.SEM/IOS/ios-proj/zadani_files/font-awesome.min.css">
+      <!-- Styles -->
+      <link rel=3D"stylesheet" href=3D"file:///C:/Users/rotmu/Desktop/FIT/1=
+.BIT/2.SEM/IOS/ios-proj/zadani_files/styles.css">
+            <!-- Add favicon here -->
+            <!-- Add site-verifications here -->
+         </head>
+   <body class=3D"vsc-initialized">
+            <div class=3D"container">
+         <h1 class=3D"title">1. =C3=9Aloha IOS (2022)</h1>
+                  <div class=3D"row">
+            <div class=3D"col-xl-10"><h1 id=3D"popis-=C3=BAlohy">Popis =C3=
+=BAlohy</h1>
+<p>C=C3=ADlem =C3=BAlohy je vytvo=C5=99it shellov=C3=BD skript pro anal=C3=
+=BDzu z=C3=A1znam=C5=AF osob s
+prok=C3=A1zanou n=C3=A1kazou koronavirem zp=C5=AFsobuj=C3=ADc=C3=ADm onemoc=
+n=C4=9Bn=C3=AD COVID-19 na =C3=BAzem=C3=AD
+=C4=8Cesk=C3=A9 republiky. Skript bude filtrovat z=C3=A1znamy a poskytovat =
+z=C3=A1kladn=C3=AD
+statistiky podle zad=C3=A1n=C3=AD u=C5=BEivatele.</p>
+<h1 id=3D"specifikace-rozhran=C3=AD-skriptu">Specifikace rozhran=C3=AD skri=
+ptu</h1>
+<p><strong>JM=C3=89NO</strong></p>
+<ul>
+<li><code>corona</code> =E2=80=94 analyz=C3=A1tor z=C3=A1znam=C5=AF osob s =
+prok=C3=A1zanou n=C3=A1kazou
+koronavirem zp=C5=AFsobuj=C3=ADc=C3=ADm onemocn=C4=9Bn=C3=AD COVID-19</li>
+</ul>
+<p><strong>POU=C5=BDIT=C3=8D</strong></p>
+<ul>
+<li><code>corona [-h] [FILTERS] [COMMAND] [LOG [LOG2 [...]]</code></li>
+</ul>
+<p><strong>VOLBY</strong></p>
+<ul>
+<li><code>COMMAND</code> m=C5=AF=C5=BEe b=C3=BDt jeden z:
+<ul>
+<li><code>infected</code> =E2=80=94 spo=C4=8D=C3=ADt=C3=A1 po=C4=8Det naka=
+=C5=BEen=C3=BDch.</li>
+<li><code>merge</code> =E2=80=94 slou=C4=8D=C3=AD n=C4=9Bkolik soubor=C5=AF=
+ se z=C3=A1znamy do jednoho,
+zachov=C3=A1vaj=C3=ADc=C3=AD p=C5=AFvodn=C3=AD po=C5=99ad=C3=AD (hlavi=C4=
+=8Dka bude ve v=C3=BDstupu jen jednou).</li>
+<li><code>gender</code> =E2=80=94 vyp=C3=AD=C5=A1e po=C4=8Det naka=C5=BEen=
+=C3=BDch pro jednotliv=C3=A1
+pohlav=C3=AD.</li>
+<li><code>age</code> =E2=80=94 vyp=C3=AD=C5=A1e statistiku po=C4=8Dtu naka=
+=C5=BEen=C3=BDch osob dle v=C4=9Bku
+(bli=C5=BE=C5=A1=C3=AD popis je n=C3=AD=C5=BEe).</li>
+<li><code>daily</code> =E2=80=94 vyp=C3=AD=C5=A1e statistiku naka=C5=BEen=
+=C3=BDch osob pro
+jednotliv=C3=A9 dny.</li>
+<li><code>monthly</code> =E2=80=94 vyp=C3=AD=C5=A1e statistiku naka=C5=BEen=
+=C3=BDch osob pro
+jednotliv=C3=A9 m=C4=9Bs=C3=ADce.</li>
+<li><code>yearly</code> =E2=80=94 vyp=C3=AD=C5=A1e statistiku naka=C5=BEen=
+=C3=BDch osob pro
+jednotliv=C3=A9 roky.</li>
+<li><code>countries</code> =E2=80=94 vyp=C3=AD=C5=A1e statistiku naka=C5=BE=
+en=C3=BDch osob pro
+jednotliv=C3=A9 zem=C4=9B n=C3=A1kazy (bez =C4=8CR, tj. k=C3=B3du <code>CZ<=
+/code>).</li>
+<li><code>districts</code> =E2=80=94 vyp=C3=AD=C5=A1e statistiku naka=C5=BE=
+en=C3=BDch osob pro
+jednotliv=C3=A9 okresy.</li>
+<li><code>regions</code> =E2=80=94 vyp=C3=AD=C5=A1e statistiku naka=C5=BEen=
+=C3=BDch osob pro
+jednotliv=C3=A9 kraje.</li>
+</ul></li>
+<li><code>FILTERS</code> m=C5=AF=C5=BEe b=C3=BDt kombinace n=C3=A1sleduj=C3=
+=ADc=C3=ADch (ka=C5=BEd=C3=BD
+maxim=C3=A1ln=C4=9B jednou):
+<ul>
+<li><code>-a DATETIME</code> =E2=80=94 after: jsou uva=C5=BEov=C3=A1ny pouz=
+e z=C3=A1znamy PO
+tomto datu (v=C4=8Detn=C4=9B tohoto data). <code>DATETIME</code> je form=C3=
+=A1tu
+<code>YYYY-MM-DD</code>.</li>
+<li><code>-b DATETIME</code> =E2=80=94 before: jsou uva=C5=BEov=C3=A1ny pou=
+ze z=C3=A1znamy P=C5=98ED
+t=C3=ADmto datem (v=C4=8Detn=C4=9B tohoto data).</li>
+<li><code>-g GENDER</code> =E2=80=94 jsou uva=C5=BEov=C3=A1ny pouze z=C3=A1=
+znamy naka=C5=BEen=C3=BDch
+osob dan=C3=A9ho pohlav=C3=AD. <code>GENDER</code> m=C5=AF=C5=BEe b=C3=BDt =
+<code>M</code> (mu=C5=BEi)
+nebo <code>Z</code> (=C5=BEeny).</li>
+<li><code>-s [WIDTH]</code> u p=C5=99=C3=ADkaz=C5=AF <code>gender</code>,
+<code>age</code>, <code>daily</code>, <code>monthly</code>,
+<code>yearly</code>, <code>countries</code>, <code>districts</code> a
+<code>regions</code> vypisuje data ne =C4=8D=C3=ADseln=C4=9B, ale graficky =
+v podob=C4=9B
+histogram=C5=AF. Nepovinn=C3=BD parametr <code>WIDTH</code> nastavuje =C5=
+=A1=C3=AD=C5=99ku
+histogram=C5=AF, tedy d=C3=A9lku nejdel=C5=A1=C3=ADho =C5=99=C3=A1dku, na <=
+code>WIDTH</code>. Tedy,
+<code>WIDTH</code> mus=C3=AD b=C3=BDt kladn=C3=A9 cel=C3=A9 =C4=8D=C3=ADslo=
+. Pokud nen=C3=AD parametr
+<code>WIDTH</code> uveden, =C5=99=C3=ADd=C3=AD se =C5=A1=C3=AD=C5=99ky =C5=
+=99=C3=A1dk=C5=AF po=C5=BEadavky uveden=C3=BDmi
+n=C3=AD=C5=BEe.</li>
+<li>(<strong>nepovinn=C3=BD, viz n=C3=AD=C5=BEe</strong>) <code>-d DISTRICT=
+_FILE</code>
+=E2=80=94 pro p=C5=99=C3=ADkaz <code>districts</code> vypisuje m=C3=ADsto <=
+a href=3D"https://www.czso.cz/csu/rso/okresy_nuts4">LAU 1 k=C3=B3du</a> okr=
+esu
+jeho jm=C3=A9no. Mapov=C3=A1n=C3=AD k=C3=B3d=C5=AF na jm=C3=A9na je v soubo=
+ru
+<code>DISTRICT_FILE</code></li>
+<li>(<strong>nepovinn=C3=BD, viz n=C3=AD=C5=BEe</strong>) <code>-r REGIONS_=
+FILE</code>
+=E2=80=94 pro p=C5=99=C3=ADkaz <code>regions</code> vypisuje m=C3=ADsto <a =
+href=3D"https://www.czso.cz/csu/rso/kraje_nuts3">NUTS 3 k=C3=B3du</a> kraje
+jeho jm=C3=A9no. Mapov=C3=A1n=C3=AD k=C3=B3d=C5=AF na jm=C3=A9na je v soubo=
+ru
+<code>REGIONS_FILE</code></li>
+</ul></li>
+<li><code>-h</code> =E2=80=94 vyp=C3=AD=C5=A1e n=C3=A1pov=C4=9Bdu s kr=C3=
+=A1tk=C3=BDm popisem ka=C5=BEd=C3=A9ho p=C5=99=C3=ADkazu
+a p=C5=99ep=C3=ADna=C4=8De.</li>
+</ul>
+<h1 id=3D"popis">Popis</h1>
+<ol type=3D"1">
+<li>Skript filtruje z=C3=A1znamy osob s prok=C3=A1zanou n=C3=A1kazou korona=
+virem
+zp=C5=AFsobuj=C3=ADc=C3=ADm onemocn=C4=9Bn=C3=AD COVID-19. Pokud je skriptu=
+ zad=C3=A1n tak=C3=A9 p=C5=99=C3=ADkaz,
+nad filtrovan=C3=BDmi z=C3=A1znamy dan=C3=BD p=C5=99=C3=ADkaz provede. Poku=
+d p=C5=99=C3=ADkaz zad=C3=A1n nen=C3=AD,
+implicitn=C4=9B se pou=C5=BEije p=C5=99=C3=ADkaz <code>merge</code>.</li>
+<li>Pokud skript nedostane ani filtr ani p=C5=99=C3=ADkaz, opisuje z=C3=A1z=
+namy na
+standardn=C3=AD v=C3=BDstup.</li>
+<li>Skript um=C3=AD zpracovat i z=C3=A1znamy komprimovan=C3=A9 pomoc=C3=AD =
+n=C3=A1stroj=C5=AF
+<code>gzip</code> a <code>bzip2</code> (v p=C5=99=C3=ADpad=C4=9B, =C5=BEe n=
+=C3=A1zev souboru
+kon=C4=8D=C3=AD <code>.gz</code> resp. <code>.bz2</code>).</li>
+<li>V p=C5=99=C3=ADpad=C4=9B, =C5=BEe skript na p=C5=99=C3=ADkazov=C3=A9 =
+=C5=99=C3=A1dce nedostane soubory se z=C3=A1znamy
+(<code>LOG</code>, <code>LOG2</code>, =E2=80=A6), o=C4=8Dek=C3=A1v=C3=A1 z=
+=C3=A1znamy na standardn=C3=ADm
+vstupu.</li>
+<li>Grafy jsou vykresleny pomoc=C3=AD ASCII a jsou oto=C4=8Den=C3=A9 doprav=
+a. Hodnota
+=C5=99=C3=A1dku je vyobrazena posloupnost=C3=AD znaku m=C5=99=C3=AD=C5=BEky=
+ <code>#</code>.</li>
+</ol>
+<h1 id=3D"podrobn=C3=A9-po=C5=BEadavky">Podrobn=C3=A9 po=C5=BEadavky</h1>
+<ol type=3D"1">
+<li><p>Skript analyzuje z=C3=A1znamy ze zadan=C3=BDch soubor=C5=AF v dan=C3=
+=A9m
+po=C5=99ad=C3=AD.</p></li>
+<li><p>Form=C3=A1t souboru se z=C3=A1znamy je CSV, kde odd=C4=9Blova=C4=8De=
+m je znak =C4=8D=C3=A1rky
+<code>,</code>. Cel=C3=BD soubor je v k=C3=B3dov=C3=A1n=C3=AD ASCII. Form=
+=C3=A1t je =C5=99=C3=A1dkov=C3=BD,
+ka=C5=BEd=C3=BD <em>nepr=C3=A1zdn=C3=BD</em> =C5=99=C3=A1dek (pr=C3=A1zdn=
+=C3=A9 =C5=99=C3=A1dky jsou takov=C3=A9, kter=C3=A9
+obsahuj=C3=AD jen b=C3=ADl=C3=A9 znaky) odpov=C3=ADd=C3=A1 z=C3=A1znamu o j=
+edn=C3=A9 n=C3=A1kaze osoby ve tvaru
+(n=C3=A1sleduj=C3=ADc=C3=AD je hlavi=C4=8Dka CSV souboru)</p>
+<pre><code>id,datum,vek,pohlavi,kraj_nuts_kod,okres_lau_kod,nakaza_v_zahran=
+ici,nakaza_zeme_csu_kod,reportovano_khs</code></pre>
+<p>kde</p>
+<ul>
+<li><code>id</code> je identifik=C3=A1tor z=C3=A1znamu (=C5=99et=C4=9Bzec n=
+eobsahuj=C3=ADc=C3=AD b=C3=ADl=C3=A9
+znaky a znak =C4=8D=C3=A1rky <code>,</code>),</li>
+<li><code>datum</code> je ve form=C3=A1tu <code>YYYY-MM-DD</code>,</li>
+<li><code>vek</code> je kladn=C3=A9 cel=C3=A9 =C4=8D=C3=ADslo,</li>
+<li><code>pohlavi</code> je <code>M</code> (mu=C5=BE) nebo <code>Z</code>
+(=C5=BEena),</li>
+<li><code>kraj_nuts_kod</code> je <a href=3D"https://www.czso.cz/csu/rso/kr=
+aje_nuts3">k=C3=B3d kraje</a>, kde byla
+n=C3=A1kaza zji=C5=A1t=C4=9Bna,</li>
+<li><code>okres_lau_kod</code> je <a href=3D"https://www.czso.cz/csu/rso/ok=
+resy_nuts4">k=C3=B3d okresu</a>, kde byla
+n=C3=A1kaza zji=C5=A1t=C4=9Bna,</li>
+<li><code>nakaza_v_zahranici</code> zna=C4=8D=C3=AD, zda zdroj n=C3=A1kazy =
+byl v
+zahrani=C4=8D=C3=AD (<code>1</code> zna=C4=8D=C3=AD, =C5=BEe zdroj n=C3=A1k=
+azy byl v zahrani=C4=8D=C3=AD,
+pr=C3=A1zdn=C3=A9 pole zna=C4=8D=C3=AD, =C5=BEe nebyl),</li>
+<li><code>nakaza_zeme_csu_kod</code> je <a href=3D"https://www.czso.cz/csu/=
+czso/ciselnik_zemi_-czem-">k=C3=B3d zem=C4=9B</a>
+vzniku n=C3=A1kazy (pro n=C3=A1kazu vzniklou v zahrani=C4=8D=C3=AD),</li>
+<li><code>reportovano_khs</code> zna=C4=8D=C3=AD, zda byla n=C3=A1kaza repo=
+rtov=C3=A1na
+krajsk=C3=A9 hygienick=C3=A9 stanici.</li>
+</ul>
+<p>P=C5=99=C3=ADklad souboru se t=C5=99emi z=C3=A1znamy:</p>
+<pre><code>id,datum,vek,pohlavi,kraj_nuts_kod,okres_lau_kod,nakaza_v_zahran=
+ici,nakaza_zeme_csu_kod,reportovano_khs
+6f4125cb-fb41-4fb0-a478-07b69ba106a4,2020-03-01,21,Z,CZ010,CZ0100,1,IT,1
+f6b08ff5-203d-4a3e-aab0-a5d39ac9ab9e,2020-03-11,32,M,CZ080,CZ0804,,,1
+b03dcf40-04cd-4f7b-a13d-767fc43c3013,2020-03-14,38,M,,,,,</code></pre>
+<ul>
+<li>Prvn=C3=AD z=C3=A1znam z 1. b=C5=99ezna 2020 zna=C4=8D=C3=AD n=C3=A1kaz=
+u 21let=C3=A9 =C5=BEeny v kraji
+=E2=80=9CHlavn=C3=AD m=C4=9Bsto Praha=E2=80=9D (k=C3=B3d <code>CZ010</code>=
+), v okrese =E2=80=9CHlavn=C3=AD m=C4=9Bsto
+Praha=E2=80=9D (k=C3=B3d <code>CZ0100</code>). =C5=BDena byla naka=C5=BEena=
+ v It=C3=A1lii (k=C3=B3d
+<code>IT</code>) a n=C3=A1kaza byla reportov=C3=A1na krajsk=C3=A9 hygienick=
+=C3=A9
+stanici.</li>
+<li>Druh=C3=BD z=C3=A1znam zna=C4=8D=C3=AD vnitrost=C3=A1tn=C3=AD n=C3=A1ka=
+zu 32let=C3=A9ho mu=C5=BEe v
+Moravskoslezsk=C3=A9m kraji (k=C3=B3d <code>CZ080</code>), v okrese Nov=C3=
+=BD Ji=C4=8D=C3=ADn
+(k=C3=B3d <code>CZ0804</code>), zji=C5=A1t=C4=9Bnou 11. b=C5=99ezna 2020.</=
+li>
+<li>T=C5=99et=C3=AD z=C3=A1znam zna=C4=8D=C3=AD n=C3=A1kazu 38let=C3=A9ho m=
+u=C5=BEe zji=C5=A1t=C4=9Bnou 14. b=C5=99ezna 2020, u
+n=C3=AD=C5=BE nejsou k dispozici dal=C5=A1=C3=AD informace.</li>
+</ul></li>
+<li><p>Skript =C5=BE=C3=A1dn=C3=BD soubor nemodifikuje. Skript nepou=C5=BE=
+=C3=ADv=C3=A1 do=C4=8Dasn=C3=A9
+soubory.</p></li>
+<li><p>Z=C3=A1znamy ve vstupn=C3=ADch souborech nemus=C3=AD b=C3=BDt uveden=
+y chronologicky a
+je-li na vstupu v=C3=ADce soubor=C5=AF, jejich po=C5=99ad=C3=AD tak=C3=A9 n=
+emus=C3=AD b=C3=BDt
+chronologick=C3=A9.</p></li>
+<li><p>Pokud nen=C3=AD p=C5=99i pou=C5=BEit=C3=AD p=C5=99ep=C3=ADna=C4=8De =
+<code>-s</code> uvedena =C5=A1=C3=AD=C5=99ka
+<code>WIDTH</code>, pak ka=C5=BEd=C3=BD v=C3=BDskyt symbolu <code>#</code> =
+v grafu
+odpov=C3=ADd=C3=A1 po=C4=8Dtu n=C3=A1kaz (zaokrouhleno dol=C5=AF) dle p=C5=
+=99=C3=ADkazu n=C3=A1sleduj=C3=ADc=C3=ADm
+zp=C5=AFsobem:</p>
+<ul>
+<li><code>gender</code> =E2=80=94 100 000</li>
+<li><code>age</code> =E2=80=94 10 000</li>
+<li><code>daily</code> =E2=80=94 500</li>
+<li><code>monthly</code> =E2=80=94 10 000</li>
+<li><code>yearly</code> =E2=80=94 100 000</li>
+<li><code>countries</code> =E2=80=94 100</li>
+<li><code>districts</code> =E2=80=94 1 000</li>
+<li><code>regions</code> =E2=80=94 10 000</li>
+</ul></li>
+<li><p>P=C5=99i pou=C5=BEit=C3=AD p=C5=99ep=C3=ADna=C4=8De <code>-s</code> =
+s uvedenou =C5=A1=C3=AD=C5=99kou
+<code>WIDTH</code> je po=C4=8Det n=C3=A1kaz na m=C5=99=C3=AD=C5=BEku uprave=
+n podle nejv=C4=9Bt=C5=A1=C3=ADho
+po=C4=8Dtu v=C3=BDskyt=C5=AF v =C5=99=C3=A1dku grafu. =C5=98=C3=A1dek s nej=
+v=C4=9Bt=C5=A1=C3=AD hodnotou bude m=C3=ADt po=C4=8Det
+m=C5=99=C3=AD=C5=BEek <code>WIDTH</code> a ostatn=C3=AD =C5=99=C3=A1dky bud=
+ou m=C3=ADt proporcion=C3=A1ln=C3=AD po=C4=8Det
+m=C5=99=C3=AD=C5=BEek vzhledem k nejv=C4=9Bt=C5=A1=C3=AD hodnot=C4=9B. P=C5=
+=99i d=C4=9Blen=C3=AD zaokrouhlujte dol=C5=AF. Tedy
+nap=C5=99. p=C5=99i <code>-s 6</code> a =C5=99=C3=A1dku s nejv=C4=9Bt=C5=A1=
+=C3=AD hodnotou 1234 bude =C5=99=C3=A1dek
+s touto hodnotou vypadat takto: <code>######</code>.</p></li>
+<li><p>Po=C5=99ad=C3=AD argument=C5=AF sta=C4=8D=C3=AD uva=C5=BEovat takov=
+=C3=A9, =C5=BEe nejd=C5=99=C3=ADv budou v=C5=A1echny
+p=C5=99ep=C3=ADna=C4=8De, pak (voliteln=C4=9B) p=C5=99=C3=ADkaz a nakonec s=
+eznam vstupn=C3=ADch soubor=C5=AF
+(lze tedy pou=C5=BE=C3=ADt <code>getopts</code>).</p></li>
+<li><p>P=C5=99edpokl=C3=A1dejte, =C5=BEe vstupn=C3=AD soubory nem=C5=AF=C5=
+=BEou m=C3=ADt jm=C3=A9na odpov=C3=ADdaj=C3=ADc=C3=AD
+n=C4=9Bkter=C3=A9mu p=C5=99=C3=ADkazu nebo p=C5=99ep=C3=ADna=C4=8Di.</p></l=
+i>
+<li><p>V p=C5=99=C3=ADpad=C4=9B uveden=C3=AD p=C5=99ep=C3=ADna=C4=8De <code=
+>-h</code> se v=C5=BEdy pouze vyp=C3=AD=C5=A1e
+n=C3=A1pov=C4=9Bda a skript skon=C4=8D=C3=AD (tedy, pokud by za p=C5=99ep=
+=C3=ADna=C4=8Dem n=C3=A1sledoval n=C4=9Bjak=C3=BD
+p=C5=99=C3=ADkaz nebo soubor, neprovede se).</p></li>
+<li><p>V p=C5=99=C3=ADpad=C4=9B neexistuj=C3=ADc=C3=AD hodnoty atributu u p=
+=C5=99=C3=ADkaz=C5=AF
+<code>gender</code>, <code>age</code>, <code>daily</code>,
+<code>monthly</code>, <code>yearly</code>, <code>districts</code>,
+<code>regions</code> agregujte z=C3=A1znamy s neexistuj=C3=ADc=C3=AD hodnot=
+ou pod
+hodnotu <code>None</code>, kterou ve v=C3=BDpisech uv=C3=A1d=C4=9Bjte jako
+posledn=C3=AD.</p></li>
+<li><p>P=C5=99epodkl=C3=A1dejte, =C5=BEe je-li v z=C3=A1znamu uvedena hodno=
+ta pro n=C4=9Bjak=C3=BD
+atribut z=C3=A1znamu, pak je korektn=C3=AD (tj. nen=C3=AD pot=C5=99eba vali=
+dovat vstup) s
+n=C3=A1sleduj=C3=ADc=C3=ADmi v=C3=BDjimkami:</p>
+<ul>
+<li>ve sloupci <code>datum</code> je o=C4=8Dek=C3=A1v=C3=A1no korektn=C3=AD=
+ datum ve form=C3=A1tu
+<code>YYYY-MM-DD</code>, kter=C3=A9 odpov=C3=ADd=C3=A1 skute=C4=8Dn=C3=A9mu=
+ dni (tedy, nap=C5=99.,
+<code>yesterday</code> nebo <code>2020-02-30</code> jsou nevalidn=C3=AD
+hodnoty).</li>
+<li>ve sloupci <code>vek</code> je o=C4=8Dek=C3=A1v=C3=A1no nez=C3=A1porn=
+=C3=A9 cel=C3=A9 =C4=8D=C3=ADslo (tedy,
+nap=C5=99., <code>-42</code>, <code>18.5</code> nebo <code>1e10</code> jsou
+nevalidn=C3=AD hodnoty).</li>
+</ul>
+<p>V p=C5=99=C3=ADpad=C4=9B detekov=C3=A1n=C3=AD z=C3=A1znamu poru=C5=A1uj=
+=C3=ADc=C3=ADho n=C4=9Bkterou z podm=C3=ADnek
+uveden=C3=BDch v=C3=BD=C5=A1e vypi=C5=A1te chybu na chybov=C3=BD v=C3=BDstu=
+p a pokra=C4=8Dujte ve
+zpracov=C3=A1v=C3=A1n=C3=AD d=C3=A1le (chyb=C4=9Bj=C3=ADc=C3=AD hodnota dat=
+a/v=C4=9Bku nen=C3=AD poru=C5=A1en=C3=ADm). Form=C3=A1t
+pro chybu je n=C3=A1sleduj=C3=ADc=C3=AD:</p>
+<pre><code>Invalid date: 6f4125cb-fb41-4fb0-a478-07b69ba106a4,2020-04-31,21=
+,Z,CZ010,CZ0100,1,IT,1
+Invalid age: 033fb060-2a10-42ce-80c1-72c2e39b1981,2020-03-05,dvacet,Z,CZ042=
+,CZ0421,,,1</code></pre>
+<p>Kontrolu validity z=C3=A1znam=C5=AF prov=C3=A1d=C4=9Bjte <strong>p=C5=99=
+ed</strong> p=C5=99=C3=ADpadn=C3=BDm
+filtrov=C3=A1n=C3=ADm.</p></li>
+<li><p>U p=C5=99=C3=ADkazu <code>age</code> pracujte s n=C3=A1sleduj=C3=ADc=
+=C3=ADmi intervaly a
+zarovn=C3=A1n=C3=ADm:</p>
+<pre><code>0-5   :=20
+6-15  :
+16-25 :
+26-35 :
+36-45 :
+46-55 :
+56-65 :
+66-75 :
+76-85 :
+86-95 :
+96-105:
+&gt;105  :     </code></pre></li>
+<li><p>Implementace p=C5=99ep=C3=ADna=C4=8D=C5=AF <code>-d</code> a <code>-=
+r</code> je
+nepovinn=C3=A1; korektn=C3=AD implementace m=C5=AF=C5=BEe vynahradit jin=C3=
+=A9 bodov=C3=A9
+ztr=C3=A1ty.</p></li>
+<li><p>U p=C5=99=C3=ADkaz=C5=AF <code>gender</code>, <code>daily</code>,
+<code>monthly</code>, <code>yearly</code>, <code>countries</code>,
+<code>districts</code>, <code>regions</code> (bez p=C5=99ep=C3=ADna=C4=8D=
+=C5=AF
+<code>-d</code> a <code>-r</code>) sta=C4=8D=C3=AD vypisovat v=C3=BDstup ve=
+ form=C3=A1tu
+<code>hodnota: pocet</code> (bez mezery p=C5=99ed dvojte=C4=8Dkou a s pr=C3=
+=A1v=C4=9B jednou
+mezerou za dvojte=C4=8Dkou), p=C5=99=C3=ADpadn=C4=9B (pro p=C5=99ep=C3=ADna=
+=C4=8D <code>-s</code>)
+<code>hodnota: ###...#</code>. U p=C5=99=C3=ADkazu <code>age</code> je zaro=
+vn=C3=A1n=C3=AD
+specifikov=C3=A1no v=C3=BD=C5=A1e.</p>
+<p>Pro nepovinn=C3=A9 p=C5=99ep=C3=ADna=C4=8De <code>-r</code> a <code>-d</=
+code> je
+dvojte=C4=8Dka na pozici o jedna v=C4=9Bt=C5=A1=C3=AD, ne=C5=BE je po=C4=8D=
+et symbol=C5=AF nejdel=C5=A1=C3=AD
+hodnoty, tj. nap=C5=99.</p>
+<pre><code>hodnota      : 42
+delsi_hodnota: 1337</code></pre></li>
+<li><p>P=C5=99=C3=ADkaz <code>countries</code> nevypisuje po=C4=8Det n=C3=
+=A1kaz v =C4=8Cesk=C3=A9
+republice (k=C3=B3d <code>CZ</code> nebo chyb=C4=9Bj=C3=ADc=C3=AD hodnota).=
+</p></li>
+<li><p>Hodnoty ve sloupc=C3=ADch <code>nakaza_v_zahranici</code> a
+<code>reportovano_khs</code> ignorujte (tj. nap=C5=99=C3=ADklad u p=C5=99=
+=C3=ADkazu
+<code>countries</code> nen=C3=AD t=C5=99eba br=C3=A1t <code>nakaza_v_zahran=
+ici</code>
+do =C3=BAvahy).</p></li>
+<li><p>Z=C3=A1znamy nemus=C3=AD nutn=C4=9B m=C3=ADt pat=C5=99i=C4=8Dn=C3=BD=
+ po=C4=8Det sloupc=C5=AF. V p=C5=99=C3=ADpad=C4=9B
+chyb=C4=9Bj=C3=ADc=C3=ADho sloupce postupujte stejn=C4=9B, jako kdyby v n=
+=C4=9Bm chyb=C4=9Bla hodnota
+(pokud z=C3=A1znamu chyb=C3=AD <code>N</code> pol=C3=AD, znamen=C3=A1, to, =
+=C5=BEe chyb=C3=AD hodnota
+<code>N</code> nejprav=C4=9Bj=C5=A1=C3=ADch sloupc=C5=AF, tedy, nap=C5=99.,=
+ pokud z=C3=A1znam obsahuje
+jen 7 pol=C3=AD, pak chyb=C3=AD hodnoty sloupc=C5=AF <code>nakaza_zeme_csu_=
+kod</code> a
+<code>reportovano_khs</code>).</p></li>
+<li><p>Nekontrolujte, zda obsahy sloupc=C5=AF <code>kraj_nuts_kod</code>,
+<code>okres_lau_kod</code> a <code>nakaza_zeme_csu_kod</code> odpov=C3=ADda=
+j=C3=AD
+dan=C3=BDm =C4=8D=C3=ADseln=C3=ADk=C5=AFm. V p=C5=99=C3=ADpad=C4=9B impleme=
+ntace roz=C5=A1=C3=AD=C5=99en=C3=AD <code>-d</code> a
+<code>-r</code> p=C5=99i pou=C5=BEit=C3=AD hodnoty nedefinovan=C3=A9 v soub=
+oru s definicemi
+okres=C5=AF/kraj=C5=AF vypisujte dan=C3=A9 z=C3=A1znamy na chybov=C3=BD v=
+=C3=BDstup v n=C3=A1sleduj=C3=ADc=C3=ADm
+form=C3=A1tu:</p>
+<pre><code>Invalid value: 07958a56-6867-4245-b042-29c291c20359,2020-08-16,5=
+,M,CZ099,CZ0999,,,1</code></pre></li>
+</ol>
+<h1 id=3D"implementa=C4=8Dn=C3=AD-detaily">Implementa=C4=8Dn=C3=AD detaily<=
+/h1>
+<ol type=3D"1">
+<li><p>Skript by m=C4=9Bl m=C3=ADt v cel=C3=A9m b=C4=9Bhu nastaveno
+<code>POSIXLY_CORRECT=3Dyes</code>.</p></li>
+<li><p>Skript by m=C4=9Bl b=C4=9B=C5=BEet na v=C5=A1ech b=C4=9B=C5=BEn=C3=
+=BDch shellech (<code>dash</code>,
+<code>ksh</code>, <code>bash</code>). Pokud pou=C5=BEijete vlastnost
+specifickou pro n=C4=9Bjak=C3=BD shell, uve=C4=8Fte to pomoc=C3=AD direktiv=
+y interpretu na
+prvn=C3=ADm =C5=99=C3=A1dku souboru, nap=C5=99. <code>#!/bin/bash</code> ne=
+bo
+<code>#!/usr/bin/env bash</code> pro <code>bash</code>. M=C5=AF=C5=BEete po=
+u=C5=BE=C3=ADt
+GNU roz=C5=A1=C3=AD=C5=99en=C3=AD pro <code>sed</code> =C4=8Di <code>awk</c=
+ode>. Jazyky Perl,
+Python, Ruby, atd. povoleny nejsou.</p>
+<p><strong>UPOZORN=C4=9AN=C3=8D:</strong> n=C4=9Bkter=C3=A9 servery, nap=C5=
+=99.
+<code>merlin.fit.vutbr.cz</code>, maj=C3=AD symlink
+<code>/bin/sh -&gt; bash</code>. Ov=C4=9B=C5=99te si proto, =C5=BEe skript =
+skute=C4=8Dn=C4=9B
+testujete dan=C3=BDm shellem. Doporu=C4=8Duji ov=C4=9B=C5=99it spr=C3=A1vno=
+u funk=C4=8Dnost pomoc=C3=AD
+virtu=C3=A1ln=C3=ADho stroje n=C3=AD=C5=BEe.</p></li>
+<li><p>Skript mus=C3=AD b=C4=9B=C5=BEet na b=C4=9B=C5=BEn=C4=9B dostupn=C3=
+=BDch OS GNU/Linux, BSD a MacOS.
+Student=C5=AFm je k dispozici virtu=C3=A1ln=C3=AD stroj s obrazem ke sta=C5=
+=BEen=C3=AD zde: <a href=3D"http://www.fit.vutbr.cz/~lengal/public/trusty.o=
+va">http://www.fit.vutbr.cz/~lengal/public/trusty.ova</a>
+(pro VirtualBox, login: <code>trusty</code> / heslo:
+<code>trusty</code>), na kter=C3=A9m lze ov=C4=9B=C5=99it spr=C3=A1vnou fun=
+k=C4=8Dnost
+projektu.</p></li>
+<li><p>Skript nesm=C3=AD pou=C5=BE=C3=ADvat do=C4=8Dasn=C3=A9 soubory. Povo=
+leny jsou v=C5=A1ak do=C4=8Dasn=C3=A9
+soubory nep=C5=99=C3=ADmo tvo=C5=99en=C3=A9 jin=C3=BDmi p=C5=99=C3=ADkazy (=
+nap=C5=99. p=C5=99=C3=ADkazem
+<code>sed -i</code>).</p></li>
+</ol>
+<h1 id=3D"odevzd=C3=A1n=C3=AD-projektu">Odevzd=C3=A1n=C3=AD projektu</h1>
+<p>Odevzd=C3=A1vejte pouze skript <code>corona</code> (nebalte ho do =C5=BE=
+=C3=A1dn=C3=A9ho
+archivu). Odevzdejte do IS, term=C3=ADn Projekt 1.</p>
+<h1 id=3D"rady">Rady</h1>
+<ul>
+<li>Dobr=C3=A1 dekompozice probl=C3=A9mu na podprobl=C3=A9my V=C3=A1m m=C5=
+=AF=C5=BEe zna=C4=8Dn=C4=9B uleh=C4=8Dit
+pr=C3=A1ci a p=C5=99edej=C3=ADt chyb=C3=A1m.</li>
+<li>Nau=C4=8Dte se <em>dob=C5=99e</em> pou=C5=BE=C3=ADvat <strong>funkce</s=
+trong> v shellu
+(uv=C4=9Bdomte si, =C5=BEe spousta funkcionality, nap=C5=99. pro v=C3=BDpis=
+y statistik,
+histogram, atd., je obdobn=C3=A1).</li>
+</ul>
+<h1 id=3D"n=C3=A1vratov=C3=A1-hodnota">N=C3=A1vratov=C3=A1 hodnota</h1>
+<ul>
+<li>Skript vrac=C3=AD =C3=BAsp=C4=9Bch v p=C5=99=C3=ADpad=C4=9B =C3=BAsp=C4=
+=9B=C5=A1n=C3=A9 operace. Intern=C3=AD chyba skriptu
+nebo chybn=C3=A9 argumenty budou doprov=C3=A1zeny chybov=C3=BDm hl=C3=A1=C5=
+=A1en=C3=ADm na stderr a
+ne=C3=BAsp=C4=9B=C5=A1n=C3=BDm n=C3=A1vratov=C3=BDm k=C3=B3dem.</li>
+</ul>
+<h1 id=3D"p=C5=99=C3=ADklady-pou=C5=BEit=C3=AD">P=C5=99=C3=ADklady pou=C5=
+=BEit=C3=AD</h1>
+<ul>
+<li>Uk=C3=A1zky z=C3=A1znam=C5=AF o naka=C5=BEen=C3=BDch jsou dostupn=C3=A9=
+ na ofici=C3=A1ln=C3=ADch str=C3=A1nk=C3=A1ch
+MZ=C4=8CR: <a href=3D"https://onemocneni-aktualne.mzcr.cz/api/v2/covid-19/o=
+soby.csv">https://onemocneni-aktualne.mzcr.cz/api/v2/covid-19/osoby.csv</a>
+(pozor, m=C3=A1 cca 250 MiB). Na <a href=3D"https://onemocneni-aktualne.mzc=
+r.cz/api/v2/covid-19">t=C3=A9to
+str=C3=A1nce</a> jsou dispozici dal=C5=A1=C3=AD datov=C3=A9 sady v=C4=8Detn=
+=C4=9B popis=C5=AF jejich
+sch=C3=A9mat.</li>
+<li>Vzorov=C3=A9 z=C3=A1znamy, na kter=C3=BDch jsou uk=C3=A1z=C3=A1ny p=C5=
+=99=C3=ADklady pou=C5=BEit=C3=AD n=C3=AD=C5=BEe, jsou
+k dispozici na <a href=3D"https://pajda.fit.vutbr.cz/ios/ios-22-1-inputs/-/=
+tree/main/">t=C3=A9to
+str=C3=A1nce</a>. Jsou to konkr=C3=A9tn=C4=9B n=C3=A1sleduj=C3=ADc=C3=AD:</=
+li>
+<li>Kopie souboru <code>osoby.csv</code> z 21. =C3=BAnora 2022 <a href=3D"h=
+ttps://pajda.fit.vutbr.cz/ios/ios-22-1-inputs/-/raw/main/data/osoby.csv">zd=
+e</a>
+(cca 250 MiB).</li>
+<li>Zkr=C3=A1cen=C3=A1 verze verze <code>osoby-short.csv</code> <a href=3D"=
+https://pajda.fit.vutbr.cz/ios/ios-22-1-inputs/-/raw/main/data/osoby-short.=
+csv">zde</a>
+(cca 150 KiB).</li>
+<li>Podmno=C5=BEina z=C3=A1znam=C5=AF za leden 2022 rozd=C4=9Blen=C3=BDch d=
+le jednotliv=C3=BDch dn=C5=AF je
+k dispozici <a href=3D"https://pajda.fit.vutbr.cz/ios/ios-22-1-inputs/-/tre=
+e/main/data/infected-jan22">zde</a>.</li>
+<li>Komprimovan=C3=A9 verze soubor=C5=AF <code>osoby.csv</code> a
+<code>osoby-short.csv</code> (<a href=3D"https://pajda.fit.vutbr.cz/ios/ios=
+-22-1-inputs/-/raw/main/data/osoby.csv.gz"><code>osoby.csv.gz</code></a>,
+<a href=3D"https://pajda.fit.vutbr.cz/ios/ios-22-1-inputs/-/raw/main/data/o=
+soby.csv.bz2"><code>osoby.csv.bz2</code></a>,
+<a href=3D"https://pajda.fit.vutbr.cz/ios/ios-22-1-inputs/-/raw/main/data/o=
+soby-short.csv.gz"><code>osoby-short.csv.gz</code></a>
+a <a href=3D"https://pajda.fit.vutbr.cz/ios/ios-22-1-inputs/-/raw/main/data=
+/osoby-short.csv.bz2"><code>osoby-short.csv.bz2</code></a>).</li>
+<li>Soubor <code>osoby2.csv</code> s uk=C3=A1zkami t=C4=9B=C5=BE=C5=A1=C3=
+=ADch z=C3=A1znam=C5=AF, kter=C3=A9 je
+pot=C5=99eba um=C4=9Bt korektn=C4=9B zpracovat, je <a href=3D"https://pajda=
+.fit.vutbr.cz/ios/ios-22-1-inputs/-/raw/main/data/osoby2.csv">zde</a>.</li>
+</ul>
+<p>P=C5=99=C3=ADklady:</p>
+<pre><code>$ cat osoby.csv | head -n 5 | ./corona
+id,datum,vek,pohlavi,kraj_nuts_kod,okres_lau_kod,nakaza_v_zahranici,nakaza_=
+zeme_csu_kod,reportovano_khs
+6f4125cb-fb41-4fb0-a478-07b69ba106a4,2020-03-01,21,Z,CZ010,CZ0100,1,IT,1
+5841443b-7df4-4af9-acab-75ca47010ec3,2020-03-01,43,M,CZ042,CZ0421,1,IT,1
+5cdb7ece-97a2-4336-9715-59dc70a48a2c,2020-03-01,67,M,CZ010,CZ0100,1,IT,1
+d345e0e2-9056-4d3f-b790-485b12831180,2020-03-03,21,Z,CZ010,CZ0100,,,</code>=
+</pre>
+<pre><code>$ ./corona infected osoby.csv
+3510360</code></pre>
+<pre><code>$ ./corona infected infected-jan22/infected-22-01-*.csv
+560894</code></pre>
+<pre><code>$ ./corona merge infected-jan22/infected-22-01-*.csv
+id,datum,vek,pohlavi,kraj_nuts_kod,okres_lau_kod,nakaza_v_zahranici,nakaza_=
+zeme_csu_kod,reportovano_khs
+741d72a4-2b6e-4703-872d-928748ca0ade,2022-01-01,3,Z,CZ020,CZ0203,,,1
+f39754b8-5e7f-44fd-8b65-e4e7e3b89521,2022-01-01,52,Z,CZ052,CZ0522,,,1
+...
+1a27f58f-8950-40c5-89fa-3795f4a906f4,2022-01-31,19,Z,CZ063,CZ0635,,,1
+9aebc069-89d5-4ba0-96c5-aefa1f2c6746,2022-01-31,19,M,CZ064,CZ0642,,,1</code=
+></pre>
+<pre><code>$ cat osoby.csv | ./corona gender
+M: 1703679
+Z: 1806681</code></pre>
+<pre><code>$ curl -s 'https://pajda.fit.vutbr.cz/ios/ios-22-1-inputs/-/raw/=
+main/data/osoby.csv' | ./corona -a 2021-07-19 infected
+1835517</code></pre>
+<pre><code>$ cat osoby.csv | ./corona daily
+2020-03-01: 3
+2020-03-03: 2
+2020-03-04: 1
+...
+2022-02-19: 8218
+2022-02-20: 4267</code></pre>
+<pre><code>$ cat osoby.csv | ./corona monthly
+2020-03: 3316
+2020-04: 4385
+2020-05: 1615
+...
+2022-01: 560894
+2022-02: 465810</code></pre>
+<pre><code>$ cat osoby.csv | ./corona yearly
+2020: 732808
+2021: 1750848
+2022: 1026704</code></pre>
+<pre><code>$ ./corona countries osoby.csv
+99: 1
+AD: 1
+AE: 444
+AF: 13
+...
+ZA: 36
+ZM: 2
+ZW: 1</code></pre>
+<p>(k=C3=B3d zem=C4=9B <code>99</code> na prvn=C3=ADm =C5=99=C3=A1dku je ch=
+yba v datov=C3=A9 sad=C4=9B;
+ne=C5=99e=C5=A1te ji)</p>
+<pre><code>$ ./corona -g M osoby.csv | head -n 6
+id,datum,vek,pohlavi,kraj_nuts_kod,okres_lau_kod,nakaza_v_zahranici,nakaza_=
+zeme_csu_kod,reportovano_khs
+5841443b-7df4-4af9-acab-75ca47010ec3,2020-03-01,43,M,CZ042,CZ0421,1,IT,1
+5cdb7ece-97a2-4336-9715-59dc70a48a2c,2020-03-01,67,M,CZ010,CZ0100,1,IT,1
+496a049f-656e-4274-a51f-72aa92d01f33,2020-03-05,49,M,CZ042,CZ0421,1,IT,1
+815a2219-2735-46ae-8b14-658459481b2f,2020-03-06,47,M,CZ010,CZ0100,1,IT,1
+9f78dd0d-2e71-4d37-89a2-665b44b2a607,2020-03-06,44,M,CZ010,CZ0100,1,IT,1</c=
+ode></pre>
+<pre><code>$ cat /dev/null | ./corona
+id,datum,vek,pohlavi,kraj_nuts_kod,okres_lau_kod,nakaza_v_zahranici,nakaza_=
+zeme_csu_kod,reportovano_khs</code></pre>
+<pre><code>$ ./corona -s daily osoby.csv
+2020-03-01:
+2020-03-03:
+2020-03-04:
+...
+2022-02-19: ################
+2022-02-20: ########</code></pre>
+<pre><code>$ ./corona -s monthly osoby.csv
+2020-03:
+2020-04:
+2020-05:
+...
+2022-01: ########################################################
+2022-02: ##############################################</code></pre>
+<pre><code>$ ./corona -s 20 yearly osoby.csv
+2020: ########
+2021: ####################
+2022: ###########</code></pre>
+<pre><code>$ ./corona osoby.csv.gz | head -n 5
+id,datum,vek,pohlavi,kraj_nuts_kod,okres_lau_kod,nakaza_v_zahranici,nakaza_=
+zeme_csu_kod,reportovano_khs
+6f4125cb-fb41-4fb0-a478-07b69ba106a4,2020-03-01,21,Z,CZ010,CZ0100,1,IT,1
+5841443b-7df4-4af9-acab-75ca47010ec3,2020-03-01,43,M,CZ042,CZ0421,1,IT,1
+5cdb7ece-97a2-4336-9715-59dc70a48a2c,2020-03-01,67,M,CZ010,CZ0100,1,IT,1
+d345e0e2-9056-4d3f-b790-485b12831180,2020-03-03,21,Z,CZ010,CZ0100,,,</code>=
+</pre>
+<pre><code>$ ./corona osoby.csv.bz2 | head -n 5
+id,datum,vek,pohlavi,kraj_nuts_kod,okres_lau_kod,nakaza_v_zahranici,nakaza_=
+zeme_csu_kod,reportovano_khs
+6f4125cb-fb41-4fb0-a478-07b69ba106a4,2020-03-01,21,Z,CZ010,CZ0100,1,IT,1
+5841443b-7df4-4af9-acab-75ca47010ec3,2020-03-01,43,M,CZ042,CZ0421,1,IT,1
+5cdb7ece-97a2-4336-9715-59dc70a48a2c,2020-03-01,67,M,CZ010,CZ0100,1,IT,1
+d345e0e2-9056-4d3f-b790-485b12831180,2020-03-03,21,Z,CZ010,CZ0100,,,</code>=
+</pre>
+<pre><code>$ ./corona districts osoby.csv
+CZ0100: 448252
+CZ0201: 34423
+CZ0202: 33545
+CZ0203: 54368
+CZ0204: 36166
+...
+CZ0806: 103556
+None: 2959</code></pre>
+<pre><code>$ ./corona regions osoby.csv
+CZ010: 448252
+CZ020: 482138
+...
+CZ080: 387509
+None: 2926</code></pre>
+<pre><code>$ ./corona age osoby.csv
+0-5   : 118107
+6-15  : 511868
+16-25 : 410980
+26-35 : 511672
+36-45 : 649751
+46-55 : 570064
+56-65 : 359275
+66-75 : 225485
+76-85 : 110360
+86-95 : 39405
+96-105: 2651
+&gt;105  : 302
+None  : 440</code></pre>
+<pre><code>$ ./corona infected osoby2.csv
+9
+Invalid date: 0dc57759-d153-45c2-8d14-fb92fc028060,2020-15-03,62,Z,CZ010,CZ=
+0100,,,1
+Invalid age: 5b0a9692-a72a-4f34-a014-83ae08a79f20,2020-03-10,3.1415,Z,CZ071=
+,CZ0712,1,IT,1</code></pre>
+<pre><code>$ ./corona daily osoby2.csv
+2020-03-01: 3
+2020-03-03: 2
+2020-03-04: 1
+2020-03-05: 3
+Invalid date: 0dc57759-d153-45c2-8d14-fb92fc028060,2020-15-03,62,Z,CZ010,CZ=
+0100,,,1
+Invalid age: 5b0a9692-a72a-4f34-a014-83ae08a79f20,2020-03-10,3.1415,Z,CZ071=
+,CZ0712,1,IT,1</code></pre>
+<h2 id=3D"roz=C5=A1=C3=AD=C5=99en=C3=AD">Roz=C5=A1=C3=AD=C5=99en=C3=AD</h2>
+<pre><code>$ ./corona -d okresy.csv districts osoby.csv
+Benesov         : 34423
+Beroun          : 33545
+Blansko         : 34374
+Brno-mesto      : 123692
+...
+Zdar nad Sazavou: 37928
+Zlin            : 69348
+Znojmo          : 32733
+None            : 2959</code></pre>
+<pre><code>$ ./corona -r kraje.csv regions osoby.csv
+Hlavni mesto Praha  : 448252
+Jihocesky kraj      : 206288
+Jihomoravsky kraj   : 374972
+Karlovarsky kraj    : 77709
+Kraj Vysocina       : 158169
+Kralovehradecky kraj: 190181
+Liberecky kraj      : 148988
+Moravskoslezsky kraj: 387509
+Olomoucky kraj      : 208593
+Pardubicky kraj     : 183208
+Plzensky kraj       : 193696
+Stredocesky kraj    : 482138
+Ustecky kraj        : 248821
+Zlinsky kraj        : 198910
+None                : 2926</code></pre></div>
+            <div class=3D"d-none d-xl-block col-xl-2 bd-toc">
+               <ul class=3D"section-nav">
+                  <li class=3D"toc-entry"><ul>
+<li><a href=3D"file:///Users/ondra/teaching/ios/ios-22-1/zadani_reseni/READ=
+ME.html#popis-%C3%BAlohy">Popis =C3=BAlohy</a></li>
+<li><a href=3D"file:///Users/ondra/teaching/ios/ios-22-1/zadani_reseni/READ=
+ME.html#specifikace-rozhran%C3%AD-skriptu">Specifikace rozhran=C3=AD
+skriptu</a></li>
+<li><a href=3D"file:///Users/ondra/teaching/ios/ios-22-1/zadani_reseni/READ=
+ME.html#popis">Popis</a></li>
+<li><a href=3D"file:///Users/ondra/teaching/ios/ios-22-1/zadani_reseni/READ=
+ME.html#podrobn%C3%A9-po%C5%BEadavky">Podrobn=C3=A9 po=C5=BEadavky</a></li>
+<li><a href=3D"file:///Users/ondra/teaching/ios/ios-22-1/zadani_reseni/READ=
+ME.html#implementa%C4%8Dn%C3%AD-detaily">Implementa=C4=8Dn=C3=AD detaily</a=
+></li>
+<li><a href=3D"file:///Users/ondra/teaching/ios/ios-22-1/zadani_reseni/READ=
+ME.html#odevzd%C3%A1n%C3%AD-projektu">Odevzd=C3=A1n=C3=AD projektu</a></li>
+<li><a href=3D"file:///Users/ondra/teaching/ios/ios-22-1/zadani_reseni/READ=
+ME.html#rady">Rady</a></li>
+<li><a href=3D"file:///Users/ondra/teaching/ios/ios-22-1/zadani_reseni/READ=
+ME.html#n%C3%A1vratov%C3%A1-hodnota">N=C3=A1vratov=C3=A1 hodnota</a></li>
+<li><a href=3D"file:///Users/ondra/teaching/ios/ios-22-1/zadani_reseni/READ=
+ME.html#p%C5%99%C3%ADklady-pou%C5%BEit%C3%AD">P=C5=99=C3=ADklady pou=C5=BEi=
+t=C3=AD</a>
+<ul>
+<li><a href=3D"file:///Users/ondra/teaching/ios/ios-22-1/zadani_reseni/READ=
+ME.html#roz%C5%A1%C3%AD%C5%99en%C3%AD">Roz=C5=A1=C3=AD=C5=99en=C3=AD</a></l=
+i>
+</ul></li>
+</ul></li>
+               </ul>
+            </div>
+         </div>
+               </div>
+            <!-- Add comment hosting service here -->
+            <!-- Footer -->
+            <footer class=3D"footer text-muted">
+               <div align=3D"center">
+                  <!-- Please keep the following line -->
+                  Built with <a href=3D"https://www.pandoc.org/" target=3D"=
+_blank" rel=3D"noopener">Pandoc</a>=20
+                  using <a href=3D"https://github.com/ashki23/pandoc-bootst=
+rap" target=3D"_blank" rel=3D"noopener">pandoc-bootstrap</a> theme
+                  <br>
+               </div>
+            </footer>
+            <!-- Add global site tag (gtag.js) and site analytics here -->
+            <!-- JS, Popper.js, and jQuery -->
+     =20
+     =20
+     =20
+      <!-- Mathjax -->
+     =20
+     =20
+     =20
+  =20
+
+</body></html>
+------MultipartBoundary--b9XCuGcNnMxtkI3itxkbtlE7Qp07ojb7IMZxIgKzyq----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-7010c759-cc21-48ff-9e85-79b2b0613fbb@mhtml.blink
+
+@charset "utf-8";
+
+.CtxtMenu_InfoClose { top: 0.2em; right: 0.2em; }
+
+.CtxtMenu_InfoContent { overflow: auto; text-align: left; font-size: 80%; p=
+adding: 0.4em 0.6em; border: 1px inset; margin: 1em 0px; max-height: 20em; =
+max-width: 30em; background-color: rgb(238, 238, 238); white-space: normal;=
+ }
+
+.CtxtMenu_Info.CtxtMenu_MousePost { outline: none; }
+
+.CtxtMenu_Info { position: fixed; left: 50%; width: auto; text-align: cente=
+r; border: 3px outset; padding: 1em 2em; background-color: rgb(221, 221, 22=
+1); color: black; cursor: default; font-family: message-box; font-size: 120=
+%; font-style: normal; text-indent: 0px; text-transform: none; line-height:=
+ normal; letter-spacing: normal; word-spacing: normal; overflow-wrap: norma=
+l; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; box=
+-shadow: rgb(128, 128, 128) 0px 10px 20px; }
+------MultipartBoundary--b9XCuGcNnMxtkI3itxkbtlE7Qp07ojb7IMZxIgKzyq----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-673b0ba6-3419-4e69-a1eb-113805724112@mhtml.blink
+
+@charset "utf-8";
+
+.CtxtMenu_MenuClose { position: absolute; cursor: pointer; display: inline-=
+block; border: 2px solid rgb(170, 170, 170); border-radius: 18px; font-fami=
+ly: "Courier New", Courier; font-size: 24px; color: rgb(240, 240, 240); }
+
+.CtxtMenu_MenuClose span { display: block; background-color: rgb(170, 170, =
+170); border: 1.5px solid; border-radius: 18px; line-height: 0; padding: 8p=
+x 0px 6px; }
+
+.CtxtMenu_MenuClose:hover { color: white !important; border: 2px solid rgb(=
+204, 204, 204) !important; }
+
+.CtxtMenu_MenuClose:hover span { background-color: rgb(204, 204, 204) !impo=
+rtant; }
+
+.CtxtMenu_MenuClose:hover:focus { outline: none; }
+------MultipartBoundary--b9XCuGcNnMxtkI3itxkbtlE7Qp07ojb7IMZxIgKzyq----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-afe55c96-1ce8-45ed-9350-1e4b0cb22d0d@mhtml.blink
+
+@charset "utf-8";
+
+.CtxtMenu_Menu { position: absolute; background-color: white; color: black;=
+ width: auto; padding: 5px 0px; border: 1px solid rgb(204, 204, 204); margi=
+n: 0px; cursor: default; font-style: ; font-variant: normal; font-weight: ;=
+ font-stretch: ; font-size: ; font-family: ; text-align: left; text-indent:=
+ 0px; text-transform: none; line-height: normal; letter-spacing: normal; wo=
+rd-spacing: normal; overflow-wrap: normal; white-space: nowrap; float: none=
+; z-index: 201; border-radius: 5px; box-shadow: rgb(128, 128, 128) 0px 10px=
+ 20px; }
+
+.CtxtMenu_MenuItem { padding: 1px 2em; background: transparent; }
+
+.CtxtMenu_MenuArrow { position: absolute; right: 0.5em; padding-top: 0.25em=
+; color: rgb(102, 102, 102); font-family: null; font-size: 0.75em; }
+
+.CtxtMenu_MenuActive .CtxtMenu_MenuArrow { color: white; }
+
+.CtxtMenu_MenuArrow.CtxtMenu_RTL { left: 0.5em; right: auto; }
+
+.CtxtMenu_MenuCheck { position: absolute; left: 0.7em; font-family: null; }
+
+.CtxtMenu_MenuCheck.CtxtMenu_RTL { right: 0.7em; left: auto; }
+
+.CtxtMenu_MenuRadioCheck { position: absolute; left: 0.7em; }
+
+.CtxtMenu_MenuRadioCheck.CtxtMenu_RTL { right: 0.7em; left: auto; }
+
+.CtxtMenu_MenuInputBox { padding-left: 1em; right: 0.5em; color: rgb(102, 1=
+02, 102); font-family: null; }
+
+.CtxtMenu_MenuInputBox.CtxtMenu_RTL { left: 0.1em; }
+
+.CtxtMenu_MenuComboBox { left: 0.1em; padding-bottom: 0.5em; }
+
+.CtxtMenu_MenuSlider { left: 0.1em; }
+
+.CtxtMenu_SliderValue { position: absolute; right: 0.1em; padding-top: 0.25=
+em; color: rgb(51, 51, 51); font-size: 0.75em; }
+
+.CtxtMenu_SliderBar { outline: none; background: rgb(211, 211, 211); }
+
+.CtxtMenu_MenuLabel { padding: 1px 2em 3px 1.33em; font-style: italic; }
+
+.CtxtMenu_MenuRule { border-top: 1px solid rgb(221, 221, 221); margin: 4px =
+3px; }
+
+.CtxtMenu_MenuDisabled { color: graytext; }
+
+.CtxtMenu_MenuActive { background-color: rgb(96, 104, 114); color: white; }
+
+.CtxtMenu_MenuDisabled:focus { background-color: rgb(232, 232, 232); }
+
+.CtxtMenu_MenuLabel:focus { background-color: rgb(232, 232, 232); }
+
+.CtxtMenu_ContextMenu:focus { outline: none; }
+
+.CtxtMenu_ContextMenu .CtxtMenu_MenuItem:focus { outline: none; }
+
+.CtxtMenu_SelectionMenu { position: relative; float: left; border-bottom: n=
+one; box-shadow: none; border-radius: 0px; }
+
+.CtxtMenu_SelectionItem { padding-right: 1em; }
+
+.CtxtMenu_Selection { right: 40%; width: 50%; }
+
+.CtxtMenu_SelectionBox { padding: 0em; max-height: 20em; max-width: none; b=
+ackground-color: rgb(255, 255, 255); }
+
+.CtxtMenu_SelectionDivider { clear: both; border-top: 2px solid rgb(0, 0, 0=
+); }
+
+.CtxtMenu_Menu .CtxtMenu_MenuClose { top: -10px; left: -10px; }
+------MultipartBoundary--b9XCuGcNnMxtkI3itxkbtlE7Qp07ojb7IMZxIgKzyq----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-463126cf-769e-457d-b40a-83700d113d5c@mhtml.blink
+
+@charset "utf-8";
+
+mjx-container[jax=3D"CHTML"] { line-height: 0; }
+
+mjx-container [space=3D"1"] { margin-left: 0.111em; }
+
+mjx-container [space=3D"2"] { margin-left: 0.167em; }
+
+mjx-container [space=3D"3"] { margin-left: 0.222em; }
+
+mjx-container [space=3D"4"] { margin-left: 0.278em; }
+
+mjx-container [space=3D"5"] { margin-left: 0.333em; }
+
+mjx-container [rspace=3D"1"] { margin-right: 0.111em; }
+
+mjx-container [rspace=3D"2"] { margin-right: 0.167em; }
+
+mjx-container [rspace=3D"3"] { margin-right: 0.222em; }
+
+mjx-container [rspace=3D"4"] { margin-right: 0.278em; }
+
+mjx-container [rspace=3D"5"] { margin-right: 0.333em; }
+
+mjx-container [size=3D"s"] { font-size: 70.7%; }
+
+mjx-container [size=3D"ss"] { font-size: 50%; }
+
+mjx-container [size=3D"Tn"] { font-size: 60%; }
+
+mjx-container [size=3D"sm"] { font-size: 85%; }
+
+mjx-container [size=3D"lg"] { font-size: 120%; }
+
+mjx-container [size=3D"Lg"] { font-size: 144%; }
+
+mjx-container [size=3D"LG"] { font-size: 173%; }
+
+mjx-container [size=3D"hg"] { font-size: 207%; }
+
+mjx-container [size=3D"HG"] { font-size: 249%; }
+
+mjx-container [width=3D"full"] { width: 100%; }
+
+mjx-box { display: inline-block; }
+
+mjx-block { display: block; }
+
+mjx-itable { display: inline-table; }
+
+mjx-row { display: table-row; }
+
+mjx-row > * { display: table-cell; }
+
+mjx-mtext { display: inline-block; }
+
+mjx-mstyle { display: inline-block; }
+
+mjx-merror { display: inline-block; color: red; background-color: yellow; }
+
+mjx-mphantom { visibility: hidden; }
+
+mjx-assistive-mml { top: 0px; left: 0px; clip: rect(1px, 1px, 1px, 1px); us=
+er-select: none; position: absolute !important; padding: 1px 0px 0px !impor=
+tant; border: 0px !important; display: block !important; width: auto !impor=
+tant; overflow: hidden !important; }
+
+mjx-assistive-mml[display=3D"block"] { width: 100% !important; }
+
+mjx-c::before { display: block; width: 0px; }
+
+.MJX-TEX { font-family: MJXZERO, MJXTEX; }
+
+.TEX-B { font-family: MJXZERO, MJXTEX-B; }
+
+.TEX-I { font-family: MJXZERO, MJXTEX-I; }
+
+.TEX-MI { font-family: MJXZERO, MJXTEX-MI; }
+
+.TEX-BI { font-family: MJXZERO, MJXTEX-BI; }
+
+.TEX-S1 { font-family: MJXZERO, MJXTEX-S1; }
+
+.TEX-S2 { font-family: MJXZERO, MJXTEX-S2; }
+
+.TEX-S3 { font-family: MJXZERO, MJXTEX-S3; }
+
+.TEX-S4 { font-family: MJXZERO, MJXTEX-S4; }
+
+.TEX-A { font-family: MJXZERO, MJXTEX-A; }
+
+.TEX-C { font-family: MJXZERO, MJXTEX-C; }
+
+.TEX-CB { font-family: MJXZERO, MJXTEX-CB; }
+
+.TEX-FR { font-family: MJXZERO, MJXTEX-FR; }
+
+.TEX-FRB { font-family: MJXZERO, MJXTEX-FRB; }
+
+.TEX-SS { font-family: MJXZERO, MJXTEX-SS; }
+
+.TEX-SSB { font-family: MJXZERO, MJXTEX-SSB; }
+
+.TEX-SSI { font-family: MJXZERO, MJXTEX-SSI; }
+
+.TEX-SC { font-family: MJXZERO, MJXTEX-SC; }
+
+.TEX-T { font-family: MJXZERO, MJXTEX-T; }
+
+.TEX-V { font-family: MJXZERO, MJXTEX-V; }
+
+.TEX-VB { font-family: MJXZERO, MJXTEX-VB; }
+
+mjx-stretchy-v mjx-c, mjx-stretchy-h mjx-c { font-family: MJXZERO, MJXTEX-S=
+1, MJXTEX-S4, MJXTEX, MJXTEX-A !important; }
+
+@font-face { font-family: MJXZERO; src: url("file:///C:/Users/rotmu/Desktop=
+/FIT/1.BIT/2.SEM/IOS/ios-proj/zadani_files/output/chtml/fonts/woff-v2/MathJ=
+ax_Zero.woff") format("woff"); }
+
+@font-face { font-family: MJXTEX; src: url("file:///C:/Users/rotmu/Desktop/=
+FIT/1.BIT/2.SEM/IOS/ios-proj/zadani_files/output/chtml/fonts/woff-v2/MathJa=
+x_Main-Regular.woff") format("woff"); }
+
+@font-face { font-family: MJXTEX-B; src: url("file:///C:/Users/rotmu/Deskto=
+p/FIT/1.BIT/2.SEM/IOS/ios-proj/zadani_files/output/chtml/fonts/woff-v2/Math=
+Jax_Main-Bold.woff") format("woff"); }
+
+@font-face { font-family: MJXTEX-I; src: url("file:///C:/Users/rotmu/Deskto=
+p/FIT/1.BIT/2.SEM/IOS/ios-proj/zadani_files/output/chtml/fonts/woff-v2/Math=
+Jax_Math-Italic.woff") format("woff"); }
+
+@font-face { font-family: MJXTEX-MI; src: url("file:///C:/Users/rotmu/Deskt=
+op/FIT/1.BIT/2.SEM/IOS/ios-proj/zadani_files/output/chtml/fonts/woff-v2/Mat=
+hJax_Main-Italic.woff") format("woff"); }
+
+@font-face { font-family: MJXTEX-BI; src: url("file:///C:/Users/rotmu/Deskt=
+op/FIT/1.BIT/2.SEM/IOS/ios-proj/zadani_files/output/chtml/fonts/woff-v2/Mat=
+hJax_Math-BoldItalic.woff") format("woff"); }
+
+@font-face { font-family: MJXTEX-S1; src: url("file:///C:/Users/rotmu/Deskt=
+op/FIT/1.BIT/2.SEM/IOS/ios-proj/zadani_files/output/chtml/fonts/woff-v2/Mat=
+hJax_Size1-Regular.woff") format("woff"); }
+
+@font-face { font-family: MJXTEX-S2; src: url("file:///C:/Users/rotmu/Deskt=
+op/FIT/1.BIT/2.SEM/IOS/ios-proj/zadani_files/output/chtml/fonts/woff-v2/Mat=
+hJax_Size2-Regular.woff") format("woff"); }
+
+@font-face { font-family: MJXTEX-S3; src: url("file:///C:/Users/rotmu/Deskt=
+op/FIT/1.BIT/2.SEM/IOS/ios-proj/zadani_files/output/chtml/fonts/woff-v2/Mat=
+hJax_Size3-Regular.woff") format("woff"); }
+
+@font-face { font-family: MJXTEX-S4; src: url("file:///C:/Users/rotmu/Deskt=
+op/FIT/1.BIT/2.SEM/IOS/ios-proj/zadani_files/output/chtml/fonts/woff-v2/Mat=
+hJax_Size4-Regular.woff") format("woff"); }
+
+@font-face { font-family: MJXTEX-A; src: url("file:///C:/Users/rotmu/Deskto=
+p/FIT/1.BIT/2.SEM/IOS/ios-proj/zadani_files/output/chtml/fonts/woff-v2/Math=
+Jax_AMS-Regular.woff") format("woff"); }
+
+@font-face { font-family: MJXTEX-C; src: url("file:///C:/Users/rotmu/Deskto=
+p/FIT/1.BIT/2.SEM/IOS/ios-proj/zadani_files/output/chtml/fonts/woff-v2/Math=
+Jax_Calligraphic-Regular.woff") format("woff"); }
+
+@font-face { font-family: MJXTEX-CB; src: url("file:///C:/Users/rotmu/Deskt=
+op/FIT/1.BIT/2.SEM/IOS/ios-proj/zadani_files/output/chtml/fonts/woff-v2/Mat=
+hJax_Calligraphic-Bold.woff") format("woff"); }
+
+@font-face { font-family: MJXTEX-FR; src: url("file:///C:/Users/rotmu/Deskt=
+op/FIT/1.BIT/2.SEM/IOS/ios-proj/zadani_files/output/chtml/fonts/woff-v2/Mat=
+hJax_Fraktur-Regular.woff") format("woff"); }
+
+@font-face { font-family: MJXTEX-FRB; src: url("file:///C:/Users/rotmu/Desk=
+top/FIT/1.BIT/2.SEM/IOS/ios-proj/zadani_files/output/chtml/fonts/woff-v2/Ma=
+thJax_Fraktur-Bold.woff") format("woff"); }
+
+@font-face { font-family: MJXTEX-SS; src: url("file:///C:/Users/rotmu/Deskt=
+op/FIT/1.BIT/2.SEM/IOS/ios-proj/zadani_files/output/chtml/fonts/woff-v2/Mat=
+hJax_SansSerif-Regular.woff") format("woff"); }
+
+@font-face { font-family: MJXTEX-SSB; src: url("file:///C:/Users/rotmu/Desk=
+top/FIT/1.BIT/2.SEM/IOS/ios-proj/zadani_files/output/chtml/fonts/woff-v2/Ma=
+thJax_SansSerif-Bold.woff") format("woff"); }
+
+@font-face { font-family: MJXTEX-SSI; src: url("file:///C:/Users/rotmu/Desk=
+top/FIT/1.BIT/2.SEM/IOS/ios-proj/zadani_files/output/chtml/fonts/woff-v2/Ma=
+thJax_SansSerif-Italic.woff") format("woff"); }
+
+@font-face { font-family: MJXTEX-SC; src: url("file:///C:/Users/rotmu/Deskt=
+op/FIT/1.BIT/2.SEM/IOS/ios-proj/zadani_files/output/chtml/fonts/woff-v2/Mat=
+hJax_Script-Regular.woff") format("woff"); }
+
+@font-face { font-family: MJXTEX-T; src: url("file:///C:/Users/rotmu/Deskto=
+p/FIT/1.BIT/2.SEM/IOS/ios-proj/zadani_files/output/chtml/fonts/woff-v2/Math=
+Jax_Typewriter-Regular.woff") format("woff"); }
+
+@font-face { font-family: MJXTEX-V; src: url("file:///C:/Users/rotmu/Deskto=
+p/FIT/1.BIT/2.SEM/IOS/ios-proj/zadani_files/output/chtml/fonts/woff-v2/Math=
+Jax_Vector-Regular.woff") format("woff"); }
+
+@font-face { font-family: MJXTEX-VB; src: url("file:///C:/Users/rotmu/Deskt=
+op/FIT/1.BIT/2.SEM/IOS/ios-proj/zadani_files/output/chtml/fonts/woff-v2/Mat=
+hJax_Vector-Bold.woff") format("woff"); }
+------MultipartBoundary--b9XCuGcNnMxtkI3itxkbtlE7Qp07ojb7IMZxIgKzyq----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-a650a2b4-aa70-4544-87a2-85bc3dc8fef3@mhtml.blink
+
+@charset "utf-8";
+
+.CtxtMenu_InfoClose { top: 0.2em; right: 0.2em; }
+
+.CtxtMenu_InfoContent { overflow: auto; text-align: left; font-size: 80%; p=
+adding: 0.4em 0.6em; border: 1px inset; margin: 1em 0px; max-height: 20em; =
+max-width: 30em; background-color: rgb(238, 238, 238); white-space: normal;=
+ }
+
+.CtxtMenu_Info.CtxtMenu_MousePost { outline: none; }
+
+.CtxtMenu_Info { position: fixed; left: 50%; width: auto; text-align: cente=
+r; border: 3px outset; padding: 1em 2em; background-color: rgb(221, 221, 22=
+1); color: black; cursor: default; font-family: message-box; font-size: 120=
+%; font-style: normal; text-indent: 0px; text-transform: none; line-height:=
+ normal; letter-spacing: normal; word-spacing: normal; overflow-wrap: norma=
+l; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; box=
+-shadow: rgb(128, 128, 128) 0px 10px 20px; }
+------MultipartBoundary--b9XCuGcNnMxtkI3itxkbtlE7Qp07ojb7IMZxIgKzyq----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-b65fab3d-433f-4820-8ccb-b107862db8ec@mhtml.blink
+
+@charset "utf-8";
+
+.CtxtMenu_MenuClose { position: absolute; cursor: pointer; display: inline-=
+block; border: 2px solid rgb(170, 170, 170); border-radius: 18px; font-fami=
+ly: "Courier New", Courier; font-size: 24px; color: rgb(240, 240, 240); }
+
+.CtxtMenu_MenuClose span { display: block; background-color: rgb(170, 170, =
+170); border: 1.5px solid; border-radius: 18px; line-height: 0; padding: 8p=
+x 0px 6px; }
+
+.CtxtMenu_MenuClose:hover { color: white !important; border: 2px solid rgb(=
+204, 204, 204) !important; }
+
+.CtxtMenu_MenuClose:hover span { background-color: rgb(204, 204, 204) !impo=
+rtant; }
+
+.CtxtMenu_MenuClose:hover:focus { outline: none; }
+------MultipartBoundary--b9XCuGcNnMxtkI3itxkbtlE7Qp07ojb7IMZxIgKzyq----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-bc3b8efa-5c65-405c-8e6d-452ecac2697b@mhtml.blink
+
+@charset "utf-8";
+
+.CtxtMenu_Menu { position: absolute; background-color: white; color: black;=
+ width: auto; padding: 5px 0px; border: 1px solid rgb(204, 204, 204); margi=
+n: 0px; cursor: default; font-style: ; font-variant: normal; font-weight: ;=
+ font-stretch: ; font-size: ; font-family: ; text-align: left; text-indent:=
+ 0px; text-transform: none; line-height: normal; letter-spacing: normal; wo=
+rd-spacing: normal; overflow-wrap: normal; white-space: nowrap; float: none=
+; z-index: 201; border-radius: 5px; box-shadow: rgb(128, 128, 128) 0px 10px=
+ 20px; }
+
+.CtxtMenu_MenuItem { padding: 1px 2em; background: transparent; }
+
+.CtxtMenu_MenuArrow { position: absolute; right: 0.5em; padding-top: 0.25em=
+; color: rgb(102, 102, 102); font-family: null; font-size: 0.75em; }
+
+.CtxtMenu_MenuActive .CtxtMenu_MenuArrow { color: white; }
+
+.CtxtMenu_MenuArrow.CtxtMenu_RTL { left: 0.5em; right: auto; }
+
+.CtxtMenu_MenuCheck { position: absolute; left: 0.7em; font-family: null; }
+
+.CtxtMenu_MenuCheck.CtxtMenu_RTL { right: 0.7em; left: auto; }
+
+.CtxtMenu_MenuRadioCheck { position: absolute; left: 0.7em; }
+
+.CtxtMenu_MenuRadioCheck.CtxtMenu_RTL { right: 0.7em; left: auto; }
+
+.CtxtMenu_MenuInputBox { padding-left: 1em; right: 0.5em; color: rgb(102, 1=
+02, 102); font-family: null; }
+
+.CtxtMenu_MenuInputBox.CtxtMenu_RTL { left: 0.1em; }
+
+.CtxtMenu_MenuComboBox { left: 0.1em; padding-bottom: 0.5em; }
+
+.CtxtMenu_MenuSlider { left: 0.1em; }
+
+.CtxtMenu_SliderValue { position: absolute; right: 0.1em; padding-top: 0.25=
+em; color: rgb(51, 51, 51); font-size: 0.75em; }
+
+.CtxtMenu_SliderBar { outline: none; background: rgb(211, 211, 211); }
+
+.CtxtMenu_MenuLabel { padding: 1px 2em 3px 1.33em; font-style: italic; }
+
+.CtxtMenu_MenuRule { border-top: 1px solid rgb(221, 221, 221); margin: 4px =
+3px; }
+
+.CtxtMenu_MenuDisabled { color: graytext; }
+
+.CtxtMenu_MenuActive { background-color: rgb(96, 104, 114); color: white; }
+
+.CtxtMenu_MenuDisabled:focus { background-color: rgb(232, 232, 232); }
+
+.CtxtMenu_MenuLabel:focus { background-color: rgb(232, 232, 232); }
+
+.CtxtMenu_ContextMenu:focus { outline: none; }
+
+.CtxtMenu_ContextMenu .CtxtMenu_MenuItem:focus { outline: none; }
+
+.CtxtMenu_SelectionMenu { position: relative; float: left; border-bottom: n=
+one; box-shadow: none; border-radius: 0px; }
+
+.CtxtMenu_SelectionItem { padding-right: 1em; }
+
+.CtxtMenu_Selection { right: 40%; width: 50%; }
+
+.CtxtMenu_SelectionBox { padding: 0em; max-height: 20em; max-width: none; b=
+ackground-color: rgb(255, 255, 255); }
+
+.CtxtMenu_SelectionDivider { clear: both; border-top: 2px solid rgb(0, 0, 0=
+); }
+
+.CtxtMenu_Menu .CtxtMenu_MenuClose { top: -10px; left: -10px; }
+------MultipartBoundary--b9XCuGcNnMxtkI3itxkbtlE7Qp07ojb7IMZxIgKzyq----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-e25464f3-944d-489c-9a43-d6da330e313e@mhtml.blink
+
+@charset "utf-8";
+
+.CtxtMenu_InfoClose { top: 0.2em; right: 0.2em; }
+
+.CtxtMenu_InfoContent { overflow: auto; text-align: left; font-size: 80%; p=
+adding: 0.4em 0.6em; border: 1px inset; margin: 1em 0px; max-height: 20em; =
+max-width: 30em; background-color: rgb(238, 238, 238); white-space: normal;=
+ }
+
+.CtxtMenu_Info.CtxtMenu_MousePost { outline: none; }
+
+.CtxtMenu_Info { position: fixed; left: 50%; width: auto; text-align: cente=
+r; border: 3px outset; padding: 1em 2em; background-color: rgb(221, 221, 22=
+1); color: black; cursor: default; font-family: message-box; font-size: 120=
+%; font-style: normal; text-indent: 0px; text-transform: none; line-height:=
+ normal; letter-spacing: normal; word-spacing: normal; overflow-wrap: norma=
+l; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; box=
+-shadow: rgb(128, 128, 128) 0px 10px 20px; }
+------MultipartBoundary--b9XCuGcNnMxtkI3itxkbtlE7Qp07ojb7IMZxIgKzyq----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-296d579e-26fa-4c0a-add5-e90cc0b5ea14@mhtml.blink
+
+@charset "utf-8";
+
+.CtxtMenu_MenuClose { position: absolute; cursor: pointer; display: inline-=
+block; border: 2px solid rgb(170, 170, 170); border-radius: 18px; font-fami=
+ly: "Courier New", Courier; font-size: 24px; color: rgb(240, 240, 240); }
+
+.CtxtMenu_MenuClose span { display: block; background-color: rgb(170, 170, =
+170); border: 1.5px solid; border-radius: 18px; line-height: 0; padding: 8p=
+x 0px 6px; }
+
+.CtxtMenu_MenuClose:hover { color: white !important; border: 2px solid rgb(=
+204, 204, 204) !important; }
+
+.CtxtMenu_MenuClose:hover span { background-color: rgb(204, 204, 204) !impo=
+rtant; }
+
+.CtxtMenu_MenuClose:hover:focus { outline: none; }
+------MultipartBoundary--b9XCuGcNnMxtkI3itxkbtlE7Qp07ojb7IMZxIgKzyq----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-a9a06b9d-f990-46ff-8d2f-68bc17c012c6@mhtml.blink
+
+@charset "utf-8";
+
+.CtxtMenu_Menu { position: absolute; background-color: white; color: black;=
+ width: auto; padding: 5px 0px; border: 1px solid rgb(204, 204, 204); margi=
+n: 0px; cursor: default; font-style: ; font-variant: normal; font-weight: ;=
+ font-stretch: ; font-size: ; font-family: ; text-align: left; text-indent:=
+ 0px; text-transform: none; line-height: normal; letter-spacing: normal; wo=
+rd-spacing: normal; overflow-wrap: normal; white-space: nowrap; float: none=
+; z-index: 201; border-radius: 5px; box-shadow: rgb(128, 128, 128) 0px 10px=
+ 20px; }
+
+.CtxtMenu_MenuItem { padding: 1px 2em; background: transparent; }
+
+.CtxtMenu_MenuArrow { position: absolute; right: 0.5em; padding-top: 0.25em=
+; color: rgb(102, 102, 102); font-family: null; font-size: 0.75em; }
+
+.CtxtMenu_MenuActive .CtxtMenu_MenuArrow { color: white; }
+
+.CtxtMenu_MenuArrow.CtxtMenu_RTL { left: 0.5em; right: auto; }
+
+.CtxtMenu_MenuCheck { position: absolute; left: 0.7em; font-family: null; }
+
+.CtxtMenu_MenuCheck.CtxtMenu_RTL { right: 0.7em; left: auto; }
+
+.CtxtMenu_MenuRadioCheck { position: absolute; left: 0.7em; }
+
+.CtxtMenu_MenuRadioCheck.CtxtMenu_RTL { right: 0.7em; left: auto; }
+
+.CtxtMenu_MenuInputBox { padding-left: 1em; right: 0.5em; color: rgb(102, 1=
+02, 102); font-family: null; }
+
+.CtxtMenu_MenuInputBox.CtxtMenu_RTL { left: 0.1em; }
+
+.CtxtMenu_MenuComboBox { left: 0.1em; padding-bottom: 0.5em; }
+
+.CtxtMenu_MenuSlider { left: 0.1em; }
+
+.CtxtMenu_SliderValue { position: absolute; right: 0.1em; padding-top: 0.25=
+em; color: rgb(51, 51, 51); font-size: 0.75em; }
+
+.CtxtMenu_SliderBar { outline: none; background: rgb(211, 211, 211); }
+
+.CtxtMenu_MenuLabel { padding: 1px 2em 3px 1.33em; font-style: italic; }
+
+.CtxtMenu_MenuRule { border-top: 1px solid rgb(221, 221, 221); margin: 4px =
+3px; }
+
+.CtxtMenu_MenuDisabled { color: graytext; }
+
+.CtxtMenu_MenuActive { background-color: rgb(96, 104, 114); color: white; }
+
+.CtxtMenu_MenuDisabled:focus { background-color: rgb(232, 232, 232); }
+
+.CtxtMenu_MenuLabel:focus { background-color: rgb(232, 232, 232); }
+
+.CtxtMenu_ContextMenu:focus { outline: none; }
+
+.CtxtMenu_ContextMenu .CtxtMenu_MenuItem:focus { outline: none; }
+
+.CtxtMenu_SelectionMenu { position: relative; float: left; border-bottom: n=
+one; box-shadow: none; border-radius: 0px; }
+
+.CtxtMenu_SelectionItem { padding-right: 1em; }
+
+.CtxtMenu_Selection { right: 40%; width: 50%; }
+
+.CtxtMenu_SelectionBox { padding: 0em; max-height: 20em; max-width: none; b=
+ackground-color: rgb(255, 255, 255); }
+
+.CtxtMenu_SelectionDivider { clear: both; border-top: 2px solid rgb(0, 0, 0=
+); }
+
+.CtxtMenu_Menu .CtxtMenu_MenuClose { top: -10px; left: -10px; }
+------MultipartBoundary--b9XCuGcNnMxtkI3itxkbtlE7Qp07ojb7IMZxIgKzyq----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/Users/rotmu/Desktop/FIT/1.BIT/2.SEM/IOS/ios-proj/zadani_files/bootstrap.min.css
+
+@charset "utf-8";
+=0A
+------MultipartBoundary--b9XCuGcNnMxtkI3itxkbtlE7Qp07ojb7IMZxIgKzyq----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/Users/rotmu/Desktop/FIT/1.BIT/2.SEM/IOS/ios-proj/zadani_files/font-awesome.min.css
+
+@charset "utf-8";
+
+@font-face { font-family: FontAwesome; src: url("../fonts/fontawesome-webfo=
+nt.woff2?v=3D4.7.0") format("woff2"), url("../fonts/fontawesome-webfont.wof=
+f?v=3D4.7.0") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=3D4.7=
+.0") format("truetype"); font-weight: normal; font-style: normal; }
+
+.fa { display: inline-block; font-style: normal; font-variant: normal; font=
+-weight: normal; font-stretch: normal; line-height: 1; font-family: FontAwe=
+some; font-size: inherit; text-rendering: auto; -webkit-font-smoothing: ant=
+ialiased; }
+
+.fa-lg { font-size: 1.33333em; line-height: 0.75em; vertical-align: -15%; }
+
+.fa-2x { font-size: 2em; }
+
+.fa-3x { font-size: 3em; }
+
+.fa-4x { font-size: 4em; }
+
+.fa-5x { font-size: 5em; }
+
+.fa-fw { width: 1.28571em; text-align: center; }
+
+.fa-ul { padding-left: 0px; margin-left: 2.14286em; list-style-type: none; =
+}
+
+.fa-ul > li { position: relative; }
+
+.fa-li { position: absolute; left: -2.14286em; width: 2.14286em; top: 0.142=
+857em; text-align: center; }
+
+.fa-li.fa-lg { left: -1.85714em; }
+
+.fa-border { padding: 0.2em 0.25em 0.15em; border: 0.08em solid rgb(238, 23=
+8, 238); border-radius: 0.1em; }
+
+.fa-pull-left { float: left; }
+
+.fa-pull-right { float: right; }
+
+.fa.fa-pull-left { margin-right: 0.3em; }
+
+.fa.fa-pull-right { margin-left: 0.3em; }
+
+.pull-right { float: right; }
+
+.pull-left { float: left; }
+
+.fa.pull-left { margin-right: 0.3em; }
+
+.fa.pull-right { margin-left: 0.3em; }
+
+.fa-spin { animation: 2s linear 0s infinite normal none running fa-spin; }
+
+.fa-pulse { animation: 1s steps(8) 0s infinite normal none running fa-spin;=
+ }
+
+@-webkit-keyframes fa-spin {=20
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(359deg); }
+}
+
+@keyframes fa-spin {=20
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(359deg); }
+}
+
+.fa-rotate-90 { transform: rotate(90deg); }
+
+.fa-rotate-180 { transform: rotate(180deg); }
+
+.fa-rotate-270 { transform: rotate(270deg); }
+
+.fa-flip-horizontal { transform: scale(-1, 1); }
+
+.fa-flip-vertical { transform: scale(1, -1); }
+
+:root .fa-rotate-90, :root .fa-rotate-180, :root .fa-rotate-270, :root .fa-=
+flip-horizontal, :root .fa-flip-vertical { filter: none; }
+
+.fa-stack { position: relative; display: inline-block; width: 2em; height: =
+2em; line-height: 2em; vertical-align: middle; }
+
+.fa-stack-1x, .fa-stack-2x { position: absolute; left: 0px; width: 100%; te=
+xt-align: center; }
+
+.fa-stack-1x { line-height: inherit; }
+
+.fa-stack-2x { font-size: 2em; }
+
+.fa-inverse { color: rgb(255, 255, 255); }
+
+.fa-glass::before { content: "=EF=80=80"; }
+
+.fa-music::before { content: "=EF=80=81"; }
+
+.fa-search::before { content: "=EF=80=82"; }
+
+.fa-envelope-o::before { content: "=EF=80=83"; }
+
+.fa-heart::before { content: "=EF=80=84"; }
+
+.fa-star::before { content: "=EF=80=85"; }
+
+.fa-star-o::before { content: "=EF=80=86"; }
+
+.fa-user::before { content: "=EF=80=87"; }
+
+.fa-film::before { content: "=EF=80=88"; }
+
+.fa-th-large::before { content: "=EF=80=89"; }
+
+.fa-th::before { content: "=EF=80=8A"; }
+
+.fa-th-list::before { content: "=EF=80=8B"; }
+
+.fa-check::before { content: "=EF=80=8C"; }
+
+.fa-remove::before, .fa-close::before, .fa-times::before { content: "=EF=80=
+=8D"; }
+
+.fa-search-plus::before { content: "=EF=80=8E"; }
+
+.fa-search-minus::before { content: "=EF=80=90"; }
+
+.fa-power-off::before { content: "=EF=80=91"; }
+
+.fa-signal::before { content: "=EF=80=92"; }
+
+.fa-gear::before, .fa-cog::before { content: "=EF=80=93"; }
+
+.fa-trash-o::before { content: "=EF=80=94"; }
+
+.fa-home::before { content: "=EF=80=95"; }
+
+.fa-file-o::before { content: "=EF=80=96"; }
+
+.fa-clock-o::before { content: "=EF=80=97"; }
+
+.fa-road::before { content: "=EF=80=98"; }
+
+.fa-download::before { content: "=EF=80=99"; }
+
+.fa-arrow-circle-o-down::before { content: "=EF=80=9A"; }
+
+.fa-arrow-circle-o-up::before { content: "=EF=80=9B"; }
+
+.fa-inbox::before { content: "=EF=80=9C"; }
+
+.fa-play-circle-o::before { content: "=EF=80=9D"; }
+
+.fa-rotate-right::before, .fa-repeat::before { content: "=EF=80=9E"; }
+
+.fa-refresh::before { content: "=EF=80=A1"; }
+
+.fa-list-alt::before { content: "=EF=80=A2"; }
+
+.fa-lock::before { content: "=EF=80=A3"; }
+
+.fa-flag::before { content: "=EF=80=A4"; }
+
+.fa-headphones::before { content: "=EF=80=A5"; }
+
+.fa-volume-off::before { content: "=EF=80=A6"; }
+
+.fa-volume-down::before { content: "=EF=80=A7"; }
+
+.fa-volume-up::before { content: "=EF=80=A8"; }
+
+.fa-qrcode::before { content: "=EF=80=A9"; }
+
+.fa-barcode::before { content: "=EF=80=AA"; }
+
+.fa-tag::before { content: "=EF=80=AB"; }
+
+.fa-tags::before { content: "=EF=80=AC"; }
+
+.fa-book::before { content: "=EF=80=AD"; }
+
+.fa-bookmark::before { content: "=EF=80=AE"; }
+
+.fa-print::before { content: "=EF=80=AF"; }
+
+.fa-camera::before { content: "=EF=80=B0"; }
+
+.fa-font::before { content: "=EF=80=B1"; }
+
+.fa-bold::before { content: "=EF=80=B2"; }
+
+.fa-italic::before { content: "=EF=80=B3"; }
+
+.fa-text-height::before { content: "=EF=80=B4"; }
+
+.fa-text-width::before { content: "=EF=80=B5"; }
+
+.fa-align-left::before { content: "=EF=80=B6"; }
+
+.fa-align-center::before { content: "=EF=80=B7"; }
+
+.fa-align-right::before { content: "=EF=80=B8"; }
+
+.fa-align-justify::before { content: "=EF=80=B9"; }
+
+.fa-list::before { content: "=EF=80=BA"; }
+
+.fa-dedent::before, .fa-outdent::before { content: "=EF=80=BB"; }
+
+.fa-indent::before { content: "=EF=80=BC"; }
+
+.fa-video-camera::before { content: "=EF=80=BD"; }
+
+.fa-photo::before, .fa-image::before, .fa-picture-o::before { content: "=EF=
+=80=BE"; }
+
+.fa-pencil::before { content: "=EF=81=80"; }
+
+.fa-map-marker::before { content: "=EF=81=81"; }
+
+.fa-adjust::before { content: "=EF=81=82"; }
+
+.fa-tint::before { content: "=EF=81=83"; }
+
+.fa-edit::before, .fa-pencil-square-o::before { content: "=EF=81=84"; }
+
+.fa-share-square-o::before { content: "=EF=81=85"; }
+
+.fa-check-square-o::before { content: "=EF=81=86"; }
+
+.fa-arrows::before { content: "=EF=81=87"; }
+
+.fa-step-backward::before { content: "=EF=81=88"; }
+
+.fa-fast-backward::before { content: "=EF=81=89"; }
+
+.fa-backward::before { content: "=EF=81=8A"; }
+
+.fa-play::before { content: "=EF=81=8B"; }
+
+.fa-pause::before { content: "=EF=81=8C"; }
+
+.fa-stop::before { content: "=EF=81=8D"; }
+
+.fa-forward::before { content: "=EF=81=8E"; }
+
+.fa-fast-forward::before { content: "=EF=81=90"; }
+
+.fa-step-forward::before { content: "=EF=81=91"; }
+
+.fa-eject::before { content: "=EF=81=92"; }
+
+.fa-chevron-left::before { content: "=EF=81=93"; }
+
+.fa-chevron-right::before { content: "=EF=81=94"; }
+
+.fa-plus-circle::before { content: "=EF=81=95"; }
+
+.fa-minus-circle::before { content: "=EF=81=96"; }
+
+.fa-times-circle::before { content: "=EF=81=97"; }
+
+.fa-check-circle::before { content: "=EF=81=98"; }
+
+.fa-question-circle::before { content: "=EF=81=99"; }
+
+.fa-info-circle::before { content: "=EF=81=9A"; }
+
+.fa-crosshairs::before { content: "=EF=81=9B"; }
+
+.fa-times-circle-o::before { content: "=EF=81=9C"; }
+
+.fa-check-circle-o::before { content: "=EF=81=9D"; }
+
+.fa-ban::before { content: "=EF=81=9E"; }
+
+.fa-arrow-left::before { content: "=EF=81=A0"; }
+
+.fa-arrow-right::before { content: "=EF=81=A1"; }
+
+.fa-arrow-up::before { content: "=EF=81=A2"; }
+
+.fa-arrow-down::before { content: "=EF=81=A3"; }
+
+.fa-mail-forward::before, .fa-share::before { content: "=EF=81=A4"; }
+
+.fa-expand::before { content: "=EF=81=A5"; }
+
+.fa-compress::before { content: "=EF=81=A6"; }
+
+.fa-plus::before { content: "=EF=81=A7"; }
+
+.fa-minus::before { content: "=EF=81=A8"; }
+
+.fa-asterisk::before { content: "=EF=81=A9"; }
+
+.fa-exclamation-circle::before { content: "=EF=81=AA"; }
+
+.fa-gift::before { content: "=EF=81=AB"; }
+
+.fa-leaf::before { content: "=EF=81=AC"; }
+
+.fa-fire::before { content: "=EF=81=AD"; }
+
+.fa-eye::before { content: "=EF=81=AE"; }
+
+.fa-eye-slash::before { content: "=EF=81=B0"; }
+
+.fa-warning::before, .fa-exclamation-triangle::before { content: "=EF=81=B1=
+"; }
+
+.fa-plane::before { content: "=EF=81=B2"; }
+
+.fa-calendar::before { content: "=EF=81=B3"; }
+
+.fa-random::before { content: "=EF=81=B4"; }
+
+.fa-comment::before { content: "=EF=81=B5"; }
+
+.fa-magnet::before { content: "=EF=81=B6"; }
+
+.fa-chevron-up::before { content: "=EF=81=B7"; }
+
+.fa-chevron-down::before { content: "=EF=81=B8"; }
+
+.fa-retweet::before { content: "=EF=81=B9"; }
+
+.fa-shopping-cart::before { content: "=EF=81=BA"; }
+
+.fa-folder::before { content: "=EF=81=BB"; }
+
+.fa-folder-open::before { content: "=EF=81=BC"; }
+
+.fa-arrows-v::before { content: "=EF=81=BD"; }
+
+.fa-arrows-h::before { content: "=EF=81=BE"; }
+
+.fa-bar-chart-o::before, .fa-bar-chart::before { content: "=EF=82=80"; }
+
+.fa-twitter-square::before { content: "=EF=82=81"; }
+
+.fa-facebook-square::before { content: "=EF=82=82"; }
+
+.fa-camera-retro::before { content: "=EF=82=83"; }
+
+.fa-key::before { content: "=EF=82=84"; }
+
+.fa-gears::before, .fa-cogs::before { content: "=EF=82=85"; }
+
+.fa-comments::before { content: "=EF=82=86"; }
+
+.fa-thumbs-o-up::before { content: "=EF=82=87"; }
+
+.fa-thumbs-o-down::before { content: "=EF=82=88"; }
+
+.fa-star-half::before { content: "=EF=82=89"; }
+
+.fa-heart-o::before { content: "=EF=82=8A"; }
+
+.fa-sign-out::before { content: "=EF=82=8B"; }
+
+.fa-linkedin-square::before { content: "=EF=82=8C"; }
+
+.fa-thumb-tack::before { content: "=EF=82=8D"; }
+
+.fa-external-link::before { content: "=EF=82=8E"; }
+
+.fa-sign-in::before { content: "=EF=82=90"; }
+
+.fa-trophy::before { content: "=EF=82=91"; }
+
+.fa-github-square::before { content: "=EF=82=92"; }
+
+.fa-upload::before { content: "=EF=82=93"; }
+
+.fa-lemon-o::before { content: "=EF=82=94"; }
+
+.fa-phone::before { content: "=EF=82=95"; }
+
+.fa-square-o::before { content: "=EF=82=96"; }
+
+.fa-bookmark-o::before { content: "=EF=82=97"; }
+
+.fa-phone-square::before { content: "=EF=82=98"; }
+
+.fa-twitter::before { content: "=EF=82=99"; }
+
+.fa-facebook-f::before, .fa-facebook::before { content: "=EF=82=9A"; }
+
+.fa-github::before { content: "=EF=82=9B"; }
+
+.fa-unlock::before { content: "=EF=82=9C"; }
+
+.fa-credit-card::before { content: "=EF=82=9D"; }
+
+.fa-feed::before, .fa-rss::before { content: "=EF=82=9E"; }
+
+.fa-hdd-o::before { content: "=EF=82=A0"; }
+
+.fa-bullhorn::before { content: "=EF=82=A1"; }
+
+.fa-bell::before { content: "=EF=83=B3"; }
+
+.fa-certificate::before { content: "=EF=82=A3"; }
+
+.fa-hand-o-right::before { content: "=EF=82=A4"; }
+
+.fa-hand-o-left::before { content: "=EF=82=A5"; }
+
+.fa-hand-o-up::before { content: "=EF=82=A6"; }
+
+.fa-hand-o-down::before { content: "=EF=82=A7"; }
+
+.fa-arrow-circle-left::before { content: "=EF=82=A8"; }
+
+.fa-arrow-circle-right::before { content: "=EF=82=A9"; }
+
+.fa-arrow-circle-up::before { content: "=EF=82=AA"; }
+
+.fa-arrow-circle-down::before { content: "=EF=82=AB"; }
+
+.fa-globe::before { content: "=EF=82=AC"; }
+
+.fa-wrench::before { content: "=EF=82=AD"; }
+
+.fa-tasks::before { content: "=EF=82=AE"; }
+
+.fa-filter::before { content: "=EF=82=B0"; }
+
+.fa-briefcase::before { content: "=EF=82=B1"; }
+
+.fa-arrows-alt::before { content: "=EF=82=B2"; }
+
+.fa-group::before, .fa-users::before { content: "=EF=83=80"; }
+
+.fa-chain::before, .fa-link::before { content: "=EF=83=81"; }
+
+.fa-cloud::before { content: "=EF=83=82"; }
+
+.fa-flask::before { content: "=EF=83=83"; }
+
+.fa-cut::before, .fa-scissors::before { content: "=EF=83=84"; }
+
+.fa-copy::before, .fa-files-o::before { content: "=EF=83=85"; }
+
+.fa-paperclip::before { content: "=EF=83=86"; }
+
+.fa-save::before, .fa-floppy-o::before { content: "=EF=83=87"; }
+
+.fa-square::before { content: "=EF=83=88"; }
+
+.fa-navicon::before, .fa-reorder::before, .fa-bars::before { content: "=EF=
+=83=89"; }
+
+.fa-list-ul::before { content: "=EF=83=8A"; }
+
+.fa-list-ol::before { content: "=EF=83=8B"; }
+
+.fa-strikethrough::before { content: "=EF=83=8C"; }
+
+.fa-underline::before { content: "=EF=83=8D"; }
+
+.fa-table::before { content: "=EF=83=8E"; }
+
+.fa-magic::before { content: "=EF=83=90"; }
+
+.fa-truck::before { content: "=EF=83=91"; }
+
+.fa-pinterest::before { content: "=EF=83=92"; }
+
+.fa-pinterest-square::before { content: "=EF=83=93"; }
+
+.fa-google-plus-square::before { content: "=EF=83=94"; }
+
+.fa-google-plus::before { content: "=EF=83=95"; }
+
+.fa-money::before { content: "=EF=83=96"; }
+
+.fa-caret-down::before { content: "=EF=83=97"; }
+
+.fa-caret-up::before { content: "=EF=83=98"; }
+
+.fa-caret-left::before { content: "=EF=83=99"; }
+
+.fa-caret-right::before { content: "=EF=83=9A"; }
+
+.fa-columns::before { content: "=EF=83=9B"; }
+
+.fa-unsorted::before, .fa-sort::before { content: "=EF=83=9C"; }
+
+.fa-sort-down::before, .fa-sort-desc::before { content: "=EF=83=9D"; }
+
+.fa-sort-up::before, .fa-sort-asc::before { content: "=EF=83=9E"; }
+
+.fa-envelope::before { content: "=EF=83=A0"; }
+
+.fa-linkedin::before { content: "=EF=83=A1"; }
+
+.fa-rotate-left::before, .fa-undo::before { content: "=EF=83=A2"; }
+
+.fa-legal::before, .fa-gavel::before { content: "=EF=83=A3"; }
+
+.fa-dashboard::before, .fa-tachometer::before { content: "=EF=83=A4"; }
+
+.fa-comment-o::before { content: "=EF=83=A5"; }
+
+.fa-comments-o::before { content: "=EF=83=A6"; }
+
+.fa-flash::before, .fa-bolt::before { content: "=EF=83=A7"; }
+
+.fa-sitemap::before { content: "=EF=83=A8"; }
+
+.fa-umbrella::before { content: "=EF=83=A9"; }
+
+.fa-paste::before, .fa-clipboard::before { content: "=EF=83=AA"; }
+
+.fa-lightbulb-o::before { content: "=EF=83=AB"; }
+
+.fa-exchange::before { content: "=EF=83=AC"; }
+
+.fa-cloud-download::before { content: "=EF=83=AD"; }
+
+.fa-cloud-upload::before { content: "=EF=83=AE"; }
+
+.fa-user-md::before { content: "=EF=83=B0"; }
+
+.fa-stethoscope::before { content: "=EF=83=B1"; }
+
+.fa-suitcase::before { content: "=EF=83=B2"; }
+
+.fa-bell-o::before { content: "=EF=82=A2"; }
+
+.fa-coffee::before { content: "=EF=83=B4"; }
+
+.fa-cutlery::before { content: "=EF=83=B5"; }
+
+.fa-file-text-o::before { content: "=EF=83=B6"; }
+
+.fa-building-o::before { content: "=EF=83=B7"; }
+
+.fa-hospital-o::before { content: "=EF=83=B8"; }
+
+.fa-ambulance::before { content: "=EF=83=B9"; }
+
+.fa-medkit::before { content: "=EF=83=BA"; }
+
+.fa-fighter-jet::before { content: "=EF=83=BB"; }
+
+.fa-beer::before { content: "=EF=83=BC"; }
+
+.fa-h-square::before { content: "=EF=83=BD"; }
+
+.fa-plus-square::before { content: "=EF=83=BE"; }
+
+.fa-angle-double-left::before { content: "=EF=84=80"; }
+
+.fa-angle-double-right::before { content: "=EF=84=81"; }
+
+.fa-angle-double-up::before { content: "=EF=84=82"; }
+
+.fa-angle-double-down::before { content: "=EF=84=83"; }
+
+.fa-angle-left::before { content: "=EF=84=84"; }
+
+.fa-angle-right::before { content: "=EF=84=85"; }
+
+.fa-angle-up::before { content: "=EF=84=86"; }
+
+.fa-angle-down::before { content: "=EF=84=87"; }
+
+.fa-desktop::before { content: "=EF=84=88"; }
+
+.fa-laptop::before { content: "=EF=84=89"; }
+
+.fa-tablet::before { content: "=EF=84=8A"; }
+
+.fa-mobile-phone::before, .fa-mobile::before { content: "=EF=84=8B"; }
+
+.fa-circle-o::before { content: "=EF=84=8C"; }
+
+.fa-quote-left::before { content: "=EF=84=8D"; }
+
+.fa-quote-right::before { content: "=EF=84=8E"; }
+
+.fa-spinner::before { content: "=EF=84=90"; }
+
+.fa-circle::before { content: "=EF=84=91"; }
+
+.fa-mail-reply::before, .fa-reply::before { content: "=EF=84=92"; }
+
+.fa-github-alt::before { content: "=EF=84=93"; }
+
+.fa-folder-o::before { content: "=EF=84=94"; }
+
+.fa-folder-open-o::before { content: "=EF=84=95"; }
+
+.fa-smile-o::before { content: "=EF=84=98"; }
+
+.fa-frown-o::before { content: "=EF=84=99"; }
+
+.fa-meh-o::before { content: "=EF=84=9A"; }
+
+.fa-gamepad::before { content: "=EF=84=9B"; }
+
+.fa-keyboard-o::before { content: "=EF=84=9C"; }
+
+.fa-flag-o::before { content: "=EF=84=9D"; }
+
+.fa-flag-checkered::before { content: "=EF=84=9E"; }
+
+.fa-terminal::before { content: "=EF=84=A0"; }
+
+.fa-code::before { content: "=EF=84=A1"; }
+
+.fa-mail-reply-all::before, .fa-reply-all::before { content: "=EF=84=A2"; }
+
+.fa-star-half-empty::before, .fa-star-half-full::before, .fa-star-half-o::b=
+efore { content: "=EF=84=A3"; }
+
+.fa-location-arrow::before { content: "=EF=84=A4"; }
+
+.fa-crop::before { content: "=EF=84=A5"; }
+
+.fa-code-fork::before { content: "=EF=84=A6"; }
+
+.fa-unlink::before, .fa-chain-broken::before { content: "=EF=84=A7"; }
+
+.fa-question::before { content: "=EF=84=A8"; }
+
+.fa-info::before { content: "=EF=84=A9"; }
+
+.fa-exclamation::before { content: "=EF=84=AA"; }
+
+.fa-superscript::before { content: "=EF=84=AB"; }
+
+.fa-subscript::before { content: "=EF=84=AC"; }
+
+.fa-eraser::before { content: "=EF=84=AD"; }
+
+.fa-puzzle-piece::before { content: "=EF=84=AE"; }
+
+.fa-microphone::before { content: "=EF=84=B0"; }
+
+.fa-microphone-slash::before { content: "=EF=84=B1"; }
+
+.fa-shield::before { content: "=EF=84=B2"; }
+
+.fa-calendar-o::before { content: "=EF=84=B3"; }
+
+.fa-fire-extinguisher::before { content: "=EF=84=B4"; }
+
+.fa-rocket::before { content: "=EF=84=B5"; }
+
+.fa-maxcdn::before { content: "=EF=84=B6"; }
+
+.fa-chevron-circle-left::before { content: "=EF=84=B7"; }
+
+.fa-chevron-circle-right::before { content: "=EF=84=B8"; }
+
+.fa-chevron-circle-up::before { content: "=EF=84=B9"; }
+
+.fa-chevron-circle-down::before { content: "=EF=84=BA"; }
+
+.fa-html5::before { content: "=EF=84=BB"; }
+
+.fa-css3::before { content: "=EF=84=BC"; }
+
+.fa-anchor::before { content: "=EF=84=BD"; }
+
+.fa-unlock-alt::before { content: "=EF=84=BE"; }
+
+.fa-bullseye::before { content: "=EF=85=80"; }
+
+.fa-ellipsis-h::before { content: "=EF=85=81"; }
+
+.fa-ellipsis-v::before { content: "=EF=85=82"; }
+
+.fa-rss-square::before { content: "=EF=85=83"; }
+
+.fa-play-circle::before { content: "=EF=85=84"; }
+
+.fa-ticket::before { content: "=EF=85=85"; }
+
+.fa-minus-square::before { content: "=EF=85=86"; }
+
+.fa-minus-square-o::before { content: "=EF=85=87"; }
+
+.fa-level-up::before { content: "=EF=85=88"; }
+
+.fa-level-down::before { content: "=EF=85=89"; }
+
+.fa-check-square::before { content: "=EF=85=8A"; }
+
+.fa-pencil-square::before { content: "=EF=85=8B"; }
+
+.fa-external-link-square::before { content: "=EF=85=8C"; }
+
+.fa-share-square::before { content: "=EF=85=8D"; }
+
+.fa-compass::before { content: "=EF=85=8E"; }
+
+.fa-toggle-down::before, .fa-caret-square-o-down::before { content: "=EF=85=
+=90"; }
+
+.fa-toggle-up::before, .fa-caret-square-o-up::before { content: "=EF=85=91"=
+; }
+
+.fa-toggle-right::before, .fa-caret-square-o-right::before { content: "=EF=
+=85=92"; }
+
+.fa-euro::before, .fa-eur::before { content: "=EF=85=93"; }
+
+.fa-gbp::before { content: "=EF=85=94"; }
+
+.fa-dollar::before, .fa-usd::before { content: "=EF=85=95"; }
+
+.fa-rupee::before, .fa-inr::before { content: "=EF=85=96"; }
+
+.fa-cny::before, .fa-rmb::before, .fa-yen::before, .fa-jpy::before { conten=
+t: "=EF=85=97"; }
+
+.fa-ruble::before, .fa-rouble::before, .fa-rub::before { content: "=EF=85=
+=98"; }
+
+.fa-won::before, .fa-krw::before { content: "=EF=85=99"; }
+
+.fa-bitcoin::before, .fa-btc::before { content: "=EF=85=9A"; }
+
+.fa-file::before { content: "=EF=85=9B"; }
+
+.fa-file-text::before { content: "=EF=85=9C"; }
+
+.fa-sort-alpha-asc::before { content: "=EF=85=9D"; }
+
+.fa-sort-alpha-desc::before { content: "=EF=85=9E"; }
+
+.fa-sort-amount-asc::before { content: "=EF=85=A0"; }
+
+.fa-sort-amount-desc::before { content: "=EF=85=A1"; }
+
+.fa-sort-numeric-asc::before { content: "=EF=85=A2"; }
+
+.fa-sort-numeric-desc::before { content: "=EF=85=A3"; }
+
+.fa-thumbs-up::before { content: "=EF=85=A4"; }
+
+.fa-thumbs-down::before { content: "=EF=85=A5"; }
+
+.fa-youtube-square::before { content: "=EF=85=A6"; }
+
+.fa-youtube::before { content: "=EF=85=A7"; }
+
+.fa-xing::before { content: "=EF=85=A8"; }
+
+.fa-xing-square::before { content: "=EF=85=A9"; }
+
+.fa-youtube-play::before { content: "=EF=85=AA"; }
+
+.fa-dropbox::before { content: "=EF=85=AB"; }
+
+.fa-stack-overflow::before { content: "=EF=85=AC"; }
+
+.fa-instagram::before { content: "=EF=85=AD"; }
+
+.fa-flickr::before { content: "=EF=85=AE"; }
+
+.fa-adn::before { content: "=EF=85=B0"; }
+
+.fa-bitbucket::before { content: "=EF=85=B1"; }
+
+.fa-bitbucket-square::before { content: "=EF=85=B2"; }
+
+.fa-tumblr::before { content: "=EF=85=B3"; }
+
+.fa-tumblr-square::before { content: "=EF=85=B4"; }
+
+.fa-long-arrow-down::before { content: "=EF=85=B5"; }
+
+.fa-long-arrow-up::before { content: "=EF=85=B6"; }
+
+.fa-long-arrow-left::before { content: "=EF=85=B7"; }
+
+.fa-long-arrow-right::before { content: "=EF=85=B8"; }
+
+.fa-apple::before { content: "=EF=85=B9"; }
+
+.fa-windows::before { content: "=EF=85=BA"; }
+
+.fa-android::before { content: "=EF=85=BB"; }
+
+.fa-linux::before { content: "=EF=85=BC"; }
+
+.fa-dribbble::before { content: "=EF=85=BD"; }
+
+.fa-skype::before { content: "=EF=85=BE"; }
+
+.fa-foursquare::before { content: "=EF=86=80"; }
+
+.fa-trello::before { content: "=EF=86=81"; }
+
+.fa-female::before { content: "=EF=86=82"; }
+
+.fa-male::before { content: "=EF=86=83"; }
+
+.fa-gittip::before, .fa-gratipay::before { content: "=EF=86=84"; }
+
+.fa-sun-o::before { content: "=EF=86=85"; }
+
+.fa-moon-o::before { content: "=EF=86=86"; }
+
+.fa-archive::before { content: "=EF=86=87"; }
+
+.fa-bug::before { content: "=EF=86=88"; }
+
+.fa-vk::before { content: "=EF=86=89"; }
+
+.fa-weibo::before { content: "=EF=86=8A"; }
+
+.fa-renren::before { content: "=EF=86=8B"; }
+
+.fa-pagelines::before { content: "=EF=86=8C"; }
+
+.fa-stack-exchange::before { content: "=EF=86=8D"; }
+
+.fa-arrow-circle-o-right::before { content: "=EF=86=8E"; }
+
+.fa-arrow-circle-o-left::before { content: "=EF=86=90"; }
+
+.fa-toggle-left::before, .fa-caret-square-o-left::before { content: "=EF=86=
+=91"; }
+
+.fa-dot-circle-o::before { content: "=EF=86=92"; }
+
+.fa-wheelchair::before { content: "=EF=86=93"; }
+
+.fa-vimeo-square::before { content: "=EF=86=94"; }
+
+.fa-turkish-lira::before, .fa-try::before { content: "=EF=86=95"; }
+
+.fa-plus-square-o::before { content: "=EF=86=96"; }
+
+.fa-space-shuttle::before { content: "=EF=86=97"; }
+
+.fa-slack::before { content: "=EF=86=98"; }
+
+.fa-envelope-square::before { content: "=EF=86=99"; }
+
+.fa-wordpress::before { content: "=EF=86=9A"; }
+
+.fa-openid::before { content: "=EF=86=9B"; }
+
+.fa-institution::before, .fa-bank::before, .fa-university::before { content=
+: "=EF=86=9C"; }
+
+.fa-mortar-board::before, .fa-graduation-cap::before { content: "=EF=86=9D"=
+; }
+
+.fa-yahoo::before { content: "=EF=86=9E"; }
+
+.fa-google::before { content: "=EF=86=A0"; }
+
+.fa-reddit::before { content: "=EF=86=A1"; }
+
+.fa-reddit-square::before { content: "=EF=86=A2"; }
+
+.fa-stumbleupon-circle::before { content: "=EF=86=A3"; }
+
+.fa-stumbleupon::before { content: "=EF=86=A4"; }
+
+.fa-delicious::before { content: "=EF=86=A5"; }
+
+.fa-digg::before { content: "=EF=86=A6"; }
+
+.fa-pied-piper-pp::before { content: "=EF=86=A7"; }
+
+.fa-pied-piper-alt::before { content: "=EF=86=A8"; }
+
+.fa-drupal::before { content: "=EF=86=A9"; }
+
+.fa-joomla::before { content: "=EF=86=AA"; }
+
+.fa-language::before { content: "=EF=86=AB"; }
+
+.fa-fax::before { content: "=EF=86=AC"; }
+
+.fa-building::before { content: "=EF=86=AD"; }
+
+.fa-child::before { content: "=EF=86=AE"; }
+
+.fa-paw::before { content: "=EF=86=B0"; }
+
+.fa-spoon::before { content: "=EF=86=B1"; }
+
+.fa-cube::before { content: "=EF=86=B2"; }
+
+.fa-cubes::before { content: "=EF=86=B3"; }
+
+.fa-behance::before { content: "=EF=86=B4"; }
+
+.fa-behance-square::before { content: "=EF=86=B5"; }
+
+.fa-steam::before { content: "=EF=86=B6"; }
+
+.fa-steam-square::before { content: "=EF=86=B7"; }
+
+.fa-recycle::before { content: "=EF=86=B8"; }
+
+.fa-automobile::before, .fa-car::before { content: "=EF=86=B9"; }
+
+.fa-cab::before, .fa-taxi::before { content: "=EF=86=BA"; }
+
+.fa-tree::before { content: "=EF=86=BB"; }
+
+.fa-spotify::before { content: "=EF=86=BC"; }
+
+.fa-deviantart::before { content: "=EF=86=BD"; }
+
+.fa-soundcloud::before { content: "=EF=86=BE"; }
+
+.fa-database::before { content: "=EF=87=80"; }
+
+.fa-file-pdf-o::before { content: "=EF=87=81"; }
+
+.fa-file-word-o::before { content: "=EF=87=82"; }
+
+.fa-file-excel-o::before { content: "=EF=87=83"; }
+
+.fa-file-powerpoint-o::before { content: "=EF=87=84"; }
+
+.fa-file-photo-o::before, .fa-file-picture-o::before, .fa-file-image-o::bef=
+ore { content: "=EF=87=85"; }
+
+.fa-file-zip-o::before, .fa-file-archive-o::before { content: "=EF=87=86"; =
+}
+
+.fa-file-sound-o::before, .fa-file-audio-o::before { content: "=EF=87=87"; =
+}
+
+.fa-file-movie-o::before, .fa-file-video-o::before { content: "=EF=87=88"; =
+}
+
+.fa-file-code-o::before { content: "=EF=87=89"; }
+
+.fa-vine::before { content: "=EF=87=8A"; }
+
+.fa-codepen::before { content: "=EF=87=8B"; }
+
+.fa-jsfiddle::before { content: "=EF=87=8C"; }
+
+.fa-life-bouy::before, .fa-life-buoy::before, .fa-life-saver::before, .fa-s=
+upport::before, .fa-life-ring::before { content: "=EF=87=8D"; }
+
+.fa-circle-o-notch::before { content: "=EF=87=8E"; }
+
+.fa-ra::before, .fa-resistance::before, .fa-rebel::before { content: "=EF=
+=87=90"; }
+
+.fa-ge::before, .fa-empire::before { content: "=EF=87=91"; }
+
+.fa-git-square::before { content: "=EF=87=92"; }
+
+.fa-git::before { content: "=EF=87=93"; }
+
+.fa-y-combinator-square::before, .fa-yc-square::before, .fa-hacker-news::be=
+fore { content: "=EF=87=94"; }
+
+.fa-tencent-weibo::before { content: "=EF=87=95"; }
+
+.fa-qq::before { content: "=EF=87=96"; }
+
+.fa-wechat::before, .fa-weixin::before { content: "=EF=87=97"; }
+
+.fa-send::before, .fa-paper-plane::before { content: "=EF=87=98"; }
+
+.fa-send-o::before, .fa-paper-plane-o::before { content: "=EF=87=99"; }
+
+.fa-history::before { content: "=EF=87=9A"; }
+
+.fa-circle-thin::before { content: "=EF=87=9B"; }
+
+.fa-header::before { content: "=EF=87=9C"; }
+
+.fa-paragraph::before { content: "=EF=87=9D"; }
+
+.fa-sliders::before { content: "=EF=87=9E"; }
+
+.fa-share-alt::before { content: "=EF=87=A0"; }
+
+.fa-share-alt-square::before { content: "=EF=87=A1"; }
+
+.fa-bomb::before { content: "=EF=87=A2"; }
+
+.fa-soccer-ball-o::before, .fa-futbol-o::before { content: "=EF=87=A3"; }
+
+.fa-tty::before { content: "=EF=87=A4"; }
+
+.fa-binoculars::before { content: "=EF=87=A5"; }
+
+.fa-plug::before { content: "=EF=87=A6"; }
+
+.fa-slideshare::before { content: "=EF=87=A7"; }
+
+.fa-twitch::before { content: "=EF=87=A8"; }
+
+.fa-yelp::before { content: "=EF=87=A9"; }
+
+.fa-newspaper-o::before { content: "=EF=87=AA"; }
+
+.fa-wifi::before { content: "=EF=87=AB"; }
+
+.fa-calculator::before { content: "=EF=87=AC"; }
+
+.fa-paypal::before { content: "=EF=87=AD"; }
+
+.fa-google-wallet::before { content: "=EF=87=AE"; }
+
+.fa-cc-visa::before { content: "=EF=87=B0"; }
+
+.fa-cc-mastercard::before { content: "=EF=87=B1"; }
+
+.fa-cc-discover::before { content: "=EF=87=B2"; }
+
+.fa-cc-amex::before { content: "=EF=87=B3"; }
+
+.fa-cc-paypal::before { content: "=EF=87=B4"; }
+
+.fa-cc-stripe::before { content: "=EF=87=B5"; }
+
+.fa-bell-slash::before { content: "=EF=87=B6"; }
+
+.fa-bell-slash-o::before { content: "=EF=87=B7"; }
+
+.fa-trash::before { content: "=EF=87=B8"; }
+
+.fa-copyright::before { content: "=EF=87=B9"; }
+
+.fa-at::before { content: "=EF=87=BA"; }
+
+.fa-eyedropper::before { content: "=EF=87=BB"; }
+
+.fa-paint-brush::before { content: "=EF=87=BC"; }
+
+.fa-birthday-cake::before { content: "=EF=87=BD"; }
+
+.fa-area-chart::before { content: "=EF=87=BE"; }
+
+.fa-pie-chart::before { content: "=EF=88=80"; }
+
+.fa-line-chart::before { content: "=EF=88=81"; }
+
+.fa-lastfm::before { content: "=EF=88=82"; }
+
+.fa-lastfm-square::before { content: "=EF=88=83"; }
+
+.fa-toggle-off::before { content: "=EF=88=84"; }
+
+.fa-toggle-on::before { content: "=EF=88=85"; }
+
+.fa-bicycle::before { content: "=EF=88=86"; }
+
+.fa-bus::before { content: "=EF=88=87"; }
+
+.fa-ioxhost::before { content: "=EF=88=88"; }
+
+.fa-angellist::before { content: "=EF=88=89"; }
+
+.fa-cc::before { content: "=EF=88=8A"; }
+
+.fa-shekel::before, .fa-sheqel::before, .fa-ils::before { content: "=EF=88=
+=8B"; }
+
+.fa-meanpath::before { content: "=EF=88=8C"; }
+
+.fa-buysellads::before { content: "=EF=88=8D"; }
+
+.fa-connectdevelop::before { content: "=EF=88=8E"; }
+
+.fa-dashcube::before { content: "=EF=88=90"; }
+
+.fa-forumbee::before { content: "=EF=88=91"; }
+
+.fa-leanpub::before { content: "=EF=88=92"; }
+
+.fa-sellsy::before { content: "=EF=88=93"; }
+
+.fa-shirtsinbulk::before { content: "=EF=88=94"; }
+
+.fa-simplybuilt::before { content: "=EF=88=95"; }
+
+.fa-skyatlas::before { content: "=EF=88=96"; }
+
+.fa-cart-plus::before { content: "=EF=88=97"; }
+
+.fa-cart-arrow-down::before { content: "=EF=88=98"; }
+
+.fa-diamond::before { content: "=EF=88=99"; }
+
+.fa-ship::before { content: "=EF=88=9A"; }
+
+.fa-user-secret::before { content: "=EF=88=9B"; }
+
+.fa-motorcycle::before { content: "=EF=88=9C"; }
+
+.fa-street-view::before { content: "=EF=88=9D"; }
+
+.fa-heartbeat::before { content: "=EF=88=9E"; }
+
+.fa-venus::before { content: "=EF=88=A1"; }
+
+.fa-mars::before { content: "=EF=88=A2"; }
+
+.fa-mercury::before { content: "=EF=88=A3"; }
+
+.fa-intersex::before, .fa-transgender::before { content: "=EF=88=A4"; }
+
+.fa-transgender-alt::before { content: "=EF=88=A5"; }
+
+.fa-venus-double::before { content: "=EF=88=A6"; }
+
+.fa-mars-double::before { content: "=EF=88=A7"; }
+
+.fa-venus-mars::before { content: "=EF=88=A8"; }
+
+.fa-mars-stroke::before { content: "=EF=88=A9"; }
+
+.fa-mars-stroke-v::before { content: "=EF=88=AA"; }
+
+.fa-mars-stroke-h::before { content: "=EF=88=AB"; }
+
+.fa-neuter::before { content: "=EF=88=AC"; }
+
+.fa-genderless::before { content: "=EF=88=AD"; }
+
+.fa-facebook-official::before { content: "=EF=88=B0"; }
+
+.fa-pinterest-p::before { content: "=EF=88=B1"; }
+
+.fa-whatsapp::before { content: "=EF=88=B2"; }
+
+.fa-server::before { content: "=EF=88=B3"; }
+
+.fa-user-plus::before { content: "=EF=88=B4"; }
+
+.fa-user-times::before { content: "=EF=88=B5"; }
+
+.fa-hotel::before, .fa-bed::before { content: "=EF=88=B6"; }
+
+.fa-viacoin::before { content: "=EF=88=B7"; }
+
+.fa-train::before { content: "=EF=88=B8"; }
+
+.fa-subway::before { content: "=EF=88=B9"; }
+
+.fa-medium::before { content: "=EF=88=BA"; }
+
+.fa-yc::before, .fa-y-combinator::before { content: "=EF=88=BB"; }
+
+.fa-optin-monster::before { content: "=EF=88=BC"; }
+
+.fa-opencart::before { content: "=EF=88=BD"; }
+
+.fa-expeditedssl::before { content: "=EF=88=BE"; }
+
+.fa-battery-4::before, .fa-battery::before, .fa-battery-full::before { cont=
+ent: "=EF=89=80"; }
+
+.fa-battery-3::before, .fa-battery-three-quarters::before { content: "=EF=
+=89=81"; }
+
+.fa-battery-2::before, .fa-battery-half::before { content: "=EF=89=82"; }
+
+.fa-battery-1::before, .fa-battery-quarter::before { content: "=EF=89=83"; =
+}
+
+.fa-battery-0::before, .fa-battery-empty::before { content: "=EF=89=84"; }
+
+.fa-mouse-pointer::before { content: "=EF=89=85"; }
+
+.fa-i-cursor::before { content: "=EF=89=86"; }
+
+.fa-object-group::before { content: "=EF=89=87"; }
+
+.fa-object-ungroup::before { content: "=EF=89=88"; }
+
+.fa-sticky-note::before { content: "=EF=89=89"; }
+
+.fa-sticky-note-o::before { content: "=EF=89=8A"; }
+
+.fa-cc-jcb::before { content: "=EF=89=8B"; }
+
+.fa-cc-diners-club::before { content: "=EF=89=8C"; }
+
+.fa-clone::before { content: "=EF=89=8D"; }
+
+.fa-balance-scale::before { content: "=EF=89=8E"; }
+
+.fa-hourglass-o::before { content: "=EF=89=90"; }
+
+.fa-hourglass-1::before, .fa-hourglass-start::before { content: "=EF=89=91"=
+; }
+
+.fa-hourglass-2::before, .fa-hourglass-half::before { content: "=EF=89=92";=
+ }
+
+.fa-hourglass-3::before, .fa-hourglass-end::before { content: "=EF=89=93"; =
+}
+
+.fa-hourglass::before { content: "=EF=89=94"; }
+
+.fa-hand-grab-o::before, .fa-hand-rock-o::before { content: "=EF=89=95"; }
+
+.fa-hand-stop-o::before, .fa-hand-paper-o::before { content: "=EF=89=96"; }
+
+.fa-hand-scissors-o::before { content: "=EF=89=97"; }
+
+.fa-hand-lizard-o::before { content: "=EF=89=98"; }
+
+.fa-hand-spock-o::before { content: "=EF=89=99"; }
+
+.fa-hand-pointer-o::before { content: "=EF=89=9A"; }
+
+.fa-hand-peace-o::before { content: "=EF=89=9B"; }
+
+.fa-trademark::before { content: "=EF=89=9C"; }
+
+.fa-registered::before { content: "=EF=89=9D"; }
+
+.fa-creative-commons::before { content: "=EF=89=9E"; }
+
+.fa-gg::before { content: "=EF=89=A0"; }
+
+.fa-gg-circle::before { content: "=EF=89=A1"; }
+
+.fa-tripadvisor::before { content: "=EF=89=A2"; }
+
+.fa-odnoklassniki::before { content: "=EF=89=A3"; }
+
+.fa-odnoklassniki-square::before { content: "=EF=89=A4"; }
+
+.fa-get-pocket::before { content: "=EF=89=A5"; }
+
+.fa-wikipedia-w::before { content: "=EF=89=A6"; }
+
+.fa-safari::before { content: "=EF=89=A7"; }
+
+.fa-chrome::before { content: "=EF=89=A8"; }
+
+.fa-firefox::before { content: "=EF=89=A9"; }
+
+.fa-opera::before { content: "=EF=89=AA"; }
+
+.fa-internet-explorer::before { content: "=EF=89=AB"; }
+
+.fa-tv::before, .fa-television::before { content: "=EF=89=AC"; }
+
+.fa-contao::before { content: "=EF=89=AD"; }
+
+.fa-500px::before { content: "=EF=89=AE"; }
+
+.fa-amazon::before { content: "=EF=89=B0"; }
+
+.fa-calendar-plus-o::before { content: "=EF=89=B1"; }
+
+.fa-calendar-minus-o::before { content: "=EF=89=B2"; }
+
+.fa-calendar-times-o::before { content: "=EF=89=B3"; }
+
+.fa-calendar-check-o::before { content: "=EF=89=B4"; }
+
+.fa-industry::before { content: "=EF=89=B5"; }
+
+.fa-map-pin::before { content: "=EF=89=B6"; }
+
+.fa-map-signs::before { content: "=EF=89=B7"; }
+
+.fa-map-o::before { content: "=EF=89=B8"; }
+
+.fa-map::before { content: "=EF=89=B9"; }
+
+.fa-commenting::before { content: "=EF=89=BA"; }
+
+.fa-commenting-o::before { content: "=EF=89=BB"; }
+
+.fa-houzz::before { content: "=EF=89=BC"; }
+
+.fa-vimeo::before { content: "=EF=89=BD"; }
+
+.fa-black-tie::before { content: "=EF=89=BE"; }
+
+.fa-fonticons::before { content: "=EF=8A=80"; }
+
+.fa-reddit-alien::before { content: "=EF=8A=81"; }
+
+.fa-edge::before { content: "=EF=8A=82"; }
+
+.fa-credit-card-alt::before { content: "=EF=8A=83"; }
+
+.fa-codiepie::before { content: "=EF=8A=84"; }
+
+.fa-modx::before { content: "=EF=8A=85"; }
+
+.fa-fort-awesome::before { content: "=EF=8A=86"; }
+
+.fa-usb::before { content: "=EF=8A=87"; }
+
+.fa-product-hunt::before { content: "=EF=8A=88"; }
+
+.fa-mixcloud::before { content: "=EF=8A=89"; }
+
+.fa-scribd::before { content: "=EF=8A=8A"; }
+
+.fa-pause-circle::before { content: "=EF=8A=8B"; }
+
+.fa-pause-circle-o::before { content: "=EF=8A=8C"; }
+
+.fa-stop-circle::before { content: "=EF=8A=8D"; }
+
+.fa-stop-circle-o::before { content: "=EF=8A=8E"; }
+
+.fa-shopping-bag::before { content: "=EF=8A=90"; }
+
+.fa-shopping-basket::before { content: "=EF=8A=91"; }
+
+.fa-hashtag::before { content: "=EF=8A=92"; }
+
+.fa-bluetooth::before { content: "=EF=8A=93"; }
+
+.fa-bluetooth-b::before { content: "=EF=8A=94"; }
+
+.fa-percent::before { content: "=EF=8A=95"; }
+
+.fa-gitlab::before { content: "=EF=8A=96"; }
+
+.fa-wpbeginner::before { content: "=EF=8A=97"; }
+
+.fa-wpforms::before { content: "=EF=8A=98"; }
+
+.fa-envira::before { content: "=EF=8A=99"; }
+
+.fa-universal-access::before { content: "=EF=8A=9A"; }
+
+.fa-wheelchair-alt::before { content: "=EF=8A=9B"; }
+
+.fa-question-circle-o::before { content: "=EF=8A=9C"; }
+
+.fa-blind::before { content: "=EF=8A=9D"; }
+
+.fa-audio-description::before { content: "=EF=8A=9E"; }
+
+.fa-volume-control-phone::before { content: "=EF=8A=A0"; }
+
+.fa-braille::before { content: "=EF=8A=A1"; }
+
+.fa-assistive-listening-systems::before { content: "=EF=8A=A2"; }
+
+.fa-asl-interpreting::before, .fa-american-sign-language-interpreting::befo=
+re { content: "=EF=8A=A3"; }
+
+.fa-deafness::before, .fa-hard-of-hearing::before, .fa-deaf::before { conte=
+nt: "=EF=8A=A4"; }
+
+.fa-glide::before { content: "=EF=8A=A5"; }
+
+.fa-glide-g::before { content: "=EF=8A=A6"; }
+
+.fa-signing::before, .fa-sign-language::before { content: "=EF=8A=A7"; }
+
+.fa-low-vision::before { content: "=EF=8A=A8"; }
+
+.fa-viadeo::before { content: "=EF=8A=A9"; }
+
+.fa-viadeo-square::before { content: "=EF=8A=AA"; }
+
+.fa-snapchat::before { content: "=EF=8A=AB"; }
+
+.fa-snapchat-ghost::before { content: "=EF=8A=AC"; }
+
+.fa-snapchat-square::before { content: "=EF=8A=AD"; }
+
+.fa-pied-piper::before { content: "=EF=8A=AE"; }
+
+.fa-first-order::before { content: "=EF=8A=B0"; }
+
+.fa-yoast::before { content: "=EF=8A=B1"; }
+
+.fa-themeisle::before { content: "=EF=8A=B2"; }
+
+.fa-google-plus-circle::before, .fa-google-plus-official::before { content:=
+ "=EF=8A=B3"; }
+
+.fa-fa::before, .fa-font-awesome::before { content: "=EF=8A=B4"; }
+
+.fa-handshake-o::before { content: "=EF=8A=B5"; }
+
+.fa-envelope-open::before { content: "=EF=8A=B6"; }
+
+.fa-envelope-open-o::before { content: "=EF=8A=B7"; }
+
+.fa-linode::before { content: "=EF=8A=B8"; }
+
+.fa-address-book::before { content: "=EF=8A=B9"; }
+
+.fa-address-book-o::before { content: "=EF=8A=BA"; }
+
+.fa-vcard::before, .fa-address-card::before { content: "=EF=8A=BB"; }
+
+.fa-vcard-o::before, .fa-address-card-o::before { content: "=EF=8A=BC"; }
+
+.fa-user-circle::before { content: "=EF=8A=BD"; }
+
+.fa-user-circle-o::before { content: "=EF=8A=BE"; }
+
+.fa-user-o::before { content: "=EF=8B=80"; }
+
+.fa-id-badge::before { content: "=EF=8B=81"; }
+
+.fa-drivers-license::before, .fa-id-card::before { content: "=EF=8B=82"; }
+
+.fa-drivers-license-o::before, .fa-id-card-o::before { content: "=EF=8B=83"=
+; }
+
+.fa-quora::before { content: "=EF=8B=84"; }
+
+.fa-free-code-camp::before { content: "=EF=8B=85"; }
+
+.fa-telegram::before { content: "=EF=8B=86"; }
+
+.fa-thermometer-4::before, .fa-thermometer::before, .fa-thermometer-full::b=
+efore { content: "=EF=8B=87"; }
+
+.fa-thermometer-3::before, .fa-thermometer-three-quarters::before { content=
+: "=EF=8B=88"; }
+
+.fa-thermometer-2::before, .fa-thermometer-half::before { content: "=EF=8B=
+=89"; }
+
+.fa-thermometer-1::before, .fa-thermometer-quarter::before { content: "=EF=
+=8B=8A"; }
+
+.fa-thermometer-0::before, .fa-thermometer-empty::before { content: "=EF=8B=
+=8B"; }
+
+.fa-shower::before { content: "=EF=8B=8C"; }
+
+.fa-bathtub::before, .fa-s15::before, .fa-bath::before { content: "=EF=8B=
+=8D"; }
+
+.fa-podcast::before { content: "=EF=8B=8E"; }
+
+.fa-window-maximize::before { content: "=EF=8B=90"; }
+
+.fa-window-minimize::before { content: "=EF=8B=91"; }
+
+.fa-window-restore::before { content: "=EF=8B=92"; }
+
+.fa-times-rectangle::before, .fa-window-close::before { content: "=EF=8B=93=
+"; }
+
+.fa-times-rectangle-o::before, .fa-window-close-o::before { content: "=EF=
+=8B=94"; }
+
+.fa-bandcamp::before { content: "=EF=8B=95"; }
+
+.fa-grav::before { content: "=EF=8B=96"; }
+
+.fa-etsy::before { content: "=EF=8B=97"; }
+
+.fa-imdb::before { content: "=EF=8B=98"; }
+
+.fa-ravelry::before { content: "=EF=8B=99"; }
+
+.fa-eercast::before { content: "=EF=8B=9A"; }
+
+.fa-microchip::before { content: "=EF=8B=9B"; }
+
+.fa-snowflake-o::before { content: "=EF=8B=9C"; }
+
+.fa-superpowers::before { content: "=EF=8B=9D"; }
+
+.fa-wpexplorer::before { content: "=EF=8B=9E"; }
+
+.fa-meetup::before { content: "=EF=8B=A0"; }
+
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0px; margi=
+n: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); border: 0px; }
+
+.sr-only-focusable:active, .sr-only-focusable:focus { position: static; wid=
+th: auto; height: auto; margin: 0px; overflow: visible; clip: auto; }
+------MultipartBoundary--b9XCuGcNnMxtkI3itxkbtlE7Qp07ojb7IMZxIgKzyq----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/Users/rotmu/Desktop/FIT/1.BIT/2.SEM/IOS/ios-proj/zadani_files/styles.css
+
+@charset "utf-8";
+
+html { position: relative; min-height: 100%; }
+
+body { color: rgb(51, 51, 51); padding-top: 4rem; padding-bottom: 8rem; }
+
+h1, h2, h3, h4, h5, h6 { font-weight: 300; }
+
+h6 { color: rgb(85, 85, 85); font-style: italic; }
+
+pre { color: rgb(51, 51, 51); display: block; padding: 0.75rem; word-break:=
+ break-all; overflow-wrap: break-word; white-space: pre-wrap; background-co=
+lor: rgb(248, 249, 250); border: 1px solid rgb(204, 204, 204); border-radiu=
+s: 4px; }
+
+blockquote { font-weight: 400; font-size: 1.35rem; margin: 1rem 0px 2rem; b=
+order-left: 2px solid rgb(204, 204, 204); padding-left: 2rem; }
+
+.container { font-size: 1.1rem; }
+
+.pagination { font-size: 0.95rem; margin-top: 4rem; }
+
+.footer { background-color: rgb(247, 247, 247); font-size: 0.85rem; padding=
+: 0.875rem 0px; position: absolute; bottom: 0px; width: 100%; max-height: 6=
+rem; overflow: visible; }
+
+.table { font-size: 1rem; color: inherit; width: auto; margin: auto; }
+
+.navbar { padding-top: 0.25rem; padding-bottom: 0.25rem; }
+
+.bd-navbar { background-color: rgb(86, 61, 124); }
+
+.bd-navbar .navbar-nav .nav-link { padding-right: 0.65rem; padding-left: 0.=
+65rem; color: rgb(203, 189, 226); }
+
+.bd-navbar .navbar-nav .nav-link.active, .bd-navbar .navbar-nav .nav-link:h=
+over { color: rgb(255, 255, 255); background-color: transparent; }
+
+.bd-navbar .navbar-nav .nav-link.active { font-weight: 600; }
+
+.bd-toc { font-size: 0.875rem; top: 3rem; right: 0px; position: fixed; padd=
+ing-top: 1.5rem; padding-bottom: 1.5rem; height: calc(100vh - 4rem); overfl=
+ow-y: auto; }
+
+.section-nav { padding-left: 0px; border-left: 1px solid rgb(238, 238, 238)=
+; }
+
+.section-nav ul { padding-left: 1rem; }
+
+.toc-entry { margin-left: -15px; display: block; }
+
+.toc-entry a { display: block; padding: 0.125rem 1.5rem; color: rgb(119, 11=
+7, 122); }
+
+.toc-entry a:hover { color: rgb(0, 123, 255); text-decoration: none; }
+
+.toc-entry ul { list-style: none; }
+
+code span.al { color: rgb(255, 0, 0); font-weight: bold; }
+
+code span.an { color: rgb(96, 160, 176); font-weight: bold; font-style: ita=
+lic; }
+
+code span.at { color: rgb(125, 144, 41); }
+
+code span.bn { color: rgb(64, 160, 112); }
+
+code span.bu { color: rgb(6, 40, 126); }
+
+code span.cf { color: rgb(0, 112, 32); font-weight: bold; }
+
+code span.ch { color: rgb(64, 112, 160); }
+
+code span.cn { color: rgb(136, 0, 0); }
+
+code span.co { color: rgb(96, 160, 176); font-style: italic; }
+
+code span.cv { color: rgb(96, 160, 176); font-weight: bold; font-style: ita=
+lic; }
+
+code span.do { color: rgb(186, 33, 33); font-style: italic; }
+
+code span.dt { color: rgb(144, 32, 0); }
+
+code span.dv { color: rgb(64, 160, 112); }
+
+code span.er { color: rgb(255, 0, 0); font-weight: bold; }
+
+code span.ex { color: rgb(6, 40, 126); }
+
+code span.fl { color: rgb(64, 160, 112); }
+
+code span.fu { color: rgb(6, 40, 126); }
+
+code span.im { color: rgb(0, 112, 32); font-weight: bold; }
+
+code span.in { color: rgb(96, 160, 176); font-weight: bold; font-style: ita=
+lic; }
+
+code span.kw { color: rgb(0, 112, 32); font-weight: bold; }
+
+code span.op { color: rgb(102, 102, 102); }
+
+code span.ot { color: rgb(0, 112, 32); }
+
+code span.pp { color: rgb(188, 122, 0); }
+
+code span.sc { color: rgb(64, 112, 160); }
+
+code span.ss { color: rgb(187, 102, 136); }
+
+code span.st { color: rgb(64, 112, 160); }
+
+code span.va { color: rgb(25, 23, 124); }
+
+code span.vs { color: rgb(64, 112, 160); }
+
+code span.wa { color: rgb(96, 160, 176); font-weight: bold; font-style: ita=
+lic; }
+------MultipartBoundary--b9XCuGcNnMxtkI3itxkbtlE7Qp07ojb7IMZxIgKzyq------

@@ -1,0 +1,701 @@
+#!/bin/bash
+export POSIXLY_CORRECT=yes
+    
+showhelp(){
+    echo "_________________________________________________________________________________________________"
+    echo corona - analyzátor záznamů osob s prokázanou nákazou koronavirem způsobujícím onemocnění COVID-19
+    echo
+    echo POUŽITÍ: corona [-h] [FILTERS] [COMMAND] [LOG [LOG2 [...]]]
+    echo
+    echo [FILTERS]:
+    echo "  "-a DATETIME "(YY-MM-DD)" - výpis záznamů PO tomto datumu "(včetně)".
+    echo "  "-b DATETIME "(YY-MM-DD)" - výpis záznamů PŘED tímto datem "(včetně)".
+    echo "  "-g GENDER "  ""(M || Z)""  " - výpis záznamů nakažených osob daného pohlaví.
+    echo "  "-s [WIDTH] "           " - vypisuje data ne číselně, ale graficky v podobě histogramů.
+    echo "                          " [WIDTH] je nepovinný parametr, musi být kladné celé číslo, nadstavuje šířku histogramů.
+    echo
+    echo [COMMAND]:
+    echo "  "infected" " - spočítá počet nakažených.
+    echo "  "merge"    " - sloučí několik souborů se záznamy do jednoho, zachovávající původní pořadí.
+    echo "  "gender"   " - vypíše počet nakažených pro jednotlivá pohlaví.
+    echo "  "age"      " - vypíše statistiku počtu nakažených osob dle věku.
+    echo "  "daily"    " - vypíše statistiku nakažených osob pro jednotlivé dny.
+    echo "  "monthly"  " - vypíše statistiku nakažených osob pro jednotlivé měsíce.
+    echo "  "yearly"   " - vypíše statistiku nakažených osob pro jednotlivé roky.
+    echo "  "countries - vypíše statistiku nakažených osob pro jednotlivé země nákazy"(mimo ČR)".
+    echo "  "districts - vypíše statistiku nakažených osob pro jednotlivé okresy.
+    echo "  "regions"  " - vypíše statistiku nakažených osob pro jednotlivé kraje.
+    echo "_________________________________________________________________________________________________"
+}
+
+filter(){
+    if [ "$DATEBEFORE" != "" ]; then
+        DATA=$(echo "$DATA" | awk -F, -v BEFORE="$DATEBEFORE" '$2 <= BEFORE || $2 == "datum"')
+        
+    fi
+
+    if [ "$DATEAFTER" != "" ]; then
+    DATA=$(echo "$DATA" | awk -F, -v AFTER="$DATEAFTER" '$2 >= AFTER || $2 == "datum"')
+    #echo "$DATA"
+    fi
+
+    if [ "$GENDER" != "" ]; then
+    
+        DATA=$(echo "$DATA" | awk -F, -v GENDER="$GENDER" '$4 == GENDER || $4 == "pohlavi"')
+    fi
+}
+
+command(){
+    if [ "$COMMAND" = "" ]; then
+        if [ "$DATA" = "" ]; then
+            echo "id,datum,vek,pohlavi,kraj_nuts_kod,okres_lau_kod,nakaza_v_zahranici,nakaza_zeme_csu_kod,reportovano_khs"
+        else    
+            echo "$DATA"
+        fi
+    fi
+
+    if [ "$COMMAND" = infected ]; then
+        echo "$DATA" | awk 'END {print NR-1}'
+    fi
+
+    if [ "$COMMAND" = merge ]; then
+        echo "$DATA"
+    fi
+
+    if [ "$COMMAND" = gender ]; then
+        gender
+    fi
+
+    if [ "$COMMAND" = daily ]; then
+        daily
+    fi
+
+    if [ "$COMMAND" = monthly ]; then
+        monthly
+    fi 
+
+    if [ "$COMMAND" = yearly ]; then
+        yearly
+    fi
+
+    if [ "$COMMAND" = countries ]; then
+        countries
+    fi 
+
+    if [ "$COMMAND" = districts ]; then
+        districts
+    fi
+
+    if [ "$COMMAND" = regions ]; then
+        regions
+    fi
+
+    if [ "$COMMAND" = age ]; then
+        age
+    fi
+}
+
+gender(){
+    if [ $SF -eq 1 ]; then
+        if [ "$WIDTH" != "" ]; then
+            echo "$DATA" | awk -F, -v width="$WIDTH" 'NR>1 {if (!$4){n++}
+                                    else if ($4 == "M"){m++}
+                                    else if ($4 == "Z"){z++}}
+                                    END{
+                                        if ((m >= z) && (m >= n)){max=m}
+                                        if ((z >= m) && (z >= n)){max=z}
+                                        if ((n >= m) && (n >= z)){max=n}
+                                        krizek=int(max/width)
+                                    }
+                                    END{                                            
+                                        printf("M: "); 
+                                        for (i=1; i < (m/krizek); i++) printf("#"); 
+                                        printf("\nZ: ");
+                                        for (i=1; i < (z/krizek); i++) printf("#");
+                                        if ( n == 0 ){
+                                            printf("\n");
+                                        } 
+                                        else {
+                                            printf("\nNone: ")
+                                            for (i=1; i < (n/krizek); i++) printf("#");
+                                            printf("\n")
+                                        }
+                                    }'
+
+        else  
+            echo "$DATA" | awk -F, 'NR>1 {if (!$4){n++}
+                                    else if ($4 == "M"){m++}
+                                    else if ($4 == "Z"){z++}}
+                                    
+                                    END{
+                                        printf("M: "); 
+                                        for (i=1; i < (m/100000); i++) printf("#"); 
+                                        printf("\nZ: ");
+                                        for (i=1; i < (z/100000); i++) printf("#");
+                                        if ( n == 0 ){
+                                            printf("\n");
+                                        } 
+                                        else {
+                                            printf("\nNone: ")
+                                            for (i=1; i < (n/100000); i++) printf("#");
+                                            printf("\n")
+                                        }
+                                    }'
+            
+        fi
+    else
+        echo "$DATA" | awk -F, 'NR>1 {if (!$4){n++}
+                                    else if ($4 == "M"){m++}
+                                    else if ($4 == "Z"){z++}}
+                                    END{if (n == 0){ printf("M: %d\nZ: %d\n",m,z)} else { printf("M: %d\nZ: %d\nNone: %d\n",m,z,n)}}'
+    fi
+}
+
+age(){
+    if [ $SF -eq 1 ]; then
+        if [ "$WIDTH" != "" ]; then
+            echo "$DATA" | awk -F, -v width="$WIDTH" 'BEGIN{max=0} NR>1 {if (length($3) == 0){m++; if(m>max){max=m}} 
+                                else if($3 <= 5){a++; if(a>max){max=a}} 
+                                else if(($3 >= 6) && ($3 <= 15)){b++; if(b>max){max=b}} 
+                                else if(($3 >= 16) && ($3 <= 25)){c++; if(c>max){max=c}} 
+                                else if(($3 >= 26) && ($3 <= 35)){d++; if(d>max){max=d}} 
+                                else if(($3 >= 36) && ($3 <= 45)){e++; if(e>max){max=e}} 
+                                else if(($3 >= 46) && ($3 <= 55)){f++; if(f>max){max=f}} 
+                                else if(($3 >= 56) && ($3 <= 65)){g++; if(g>max){max=g}} 
+                                else if(($3 >= 66) && ($3 <= 75)){h++; if(h>max){max=h}} 
+                                else if(($3 >= 76) && ($3 <= 85)){i++; if(i>max){max=i}} 
+                                else if(($3 >= 86) && ($3 <= 95)){j++; if(j>max){max=j}} 
+                                else if(($3 >= 96) && ($3 <= 105)){k++; if(k>max){max=k}} 
+                                else if($3 > 105){l++; if(l>max){max=l}} }
+                                
+                                END{
+
+                                    krizek=int(max/width);
+                                }
+
+                                END{ 
+                                    if (krizek == 0){
+                                        if(m == 0){
+                                            printf("0-5   : \n6-15  : \n16-25 : \n26-35 : \n36-45 : \n46-55 : \n56-65 : \n66-75 : \n76-85 : \n86-95 : \n95-105: \n>105  : \n")
+                                            } 
+                                        
+                                        else{
+                                            printf("0-5   : \n6-15  : \n16-25 : \n26-35 : \n36-45 : \n46-55 : \n56-65 : \n66-75 : \n76-85 : \n86-95 : \n95-105: \n>105  : \nNone  : \n")
+                                            }
+                                    }
+                                    else {
+                                            
+                                            printf("0-5   : "); 
+                                            for (i=1; i < (a/krizek); i++) printf("#"); 
+                                            printf("\n6-15  : ");
+                                            for (i=1; i < (b/krizek); i++) printf("#");
+                                            printf("\n16-25 : ");
+                                            for (i=1; i < (c/krizek); i++) printf("#"); 
+                                            printf("\n26-35 : ");
+                                            for (i=1; i < (d/krizek); i++) printf("#");
+                                            printf("\n36-45 : ");
+                                            for (i=1; i < (e/krizek); i++) printf("#"); 
+                                            printf("\n46-55 : ");
+                                            for (i=1; i < (f/krizek); i++) printf("#");
+                                            printf("\n56-65 : ");
+                                            for (i=1; i < (g/krizek); i++) printf("#"); 
+                                            printf("\n66-75 : ");
+                                            for (i=1; i < (h/krizek); i++) printf("#");
+                                            printf("\n76-85 : ");
+                                            for (i=1; i < (i/krizek); i++) printf("#"); 
+                                            printf("\n86-95 : ");
+                                            for (i=1; i < (j/krizek); i++) printf("#");
+                                            printf("\n95-105: ");
+                                            for (i=1; i < (k/krizek); i++) printf("#"); 
+                                            printf("\n>105  : ");
+                                            for (i=1; i < (l/krizek); i++) printf("#");
+                                            if(m == 0){
+                                                printf("\n");
+                                            }
+                                            else {
+                                                printf("\nNone  : ")
+                                                for (i=1; i < (m/krizek); i++) printf("#");
+                                                printf("\n")
+                                            }
+                                            
+                                        
+                                    }
+                                    }' 
+        else
+            echo "$DATA" | awk -F, 'BEGIN{max=0} NR>1 {if (length($3) == 0){m++; if(m>max){max=m}} 
+                                else if($3 <= 5){a++; if(a>max){max=a}} 
+                                else if(($3 >= 6) && ($3 <= 15)){b++; if(b>max){max=b}} 
+                                else if(($3 >= 16) && ($3 <= 25)){c++; if(c>max){max=c}} 
+                                else if(($3 >= 26) && ($3 <= 35)){d++; if(d>max){max=d}} 
+                                else if(($3 >= 36) && ($3 <= 45)){e++; if(e>max){max=e}} 
+                                else if(($3 >= 46) && ($3 <= 55)){f++; if(f>max){max=f}} 
+                                else if(($3 >= 56) && ($3 <= 65)){g++; if(g>max){max=g}} 
+                                else if(($3 >= 66) && ($3 <= 75)){h++; if(h>max){max=h}} 
+                                else if(($3 >= 76) && ($3 <= 85)){i++; if(i>max){max=i}} 
+                                else if(($3 >= 86) && ($3 <= 95)){j++; if(j>max){max=j}} 
+                                else if(($3 >= 96) && ($3 <= 105)){k++; if(k>max){max=k}} 
+                                else if($3 > 105){l++; if(l>max){max=l}} } 
+                                
+                                END{  
+                                    printf("0-5   : "); 
+                                    for (i=1; i < (a/10000); i++) printf("#"); 
+                                    printf("\n6-15  : ");
+                                    for (i=1; i < (b/10000); i++) printf("#");
+                                    printf("\n16-25 : ");
+                                    for (i=1; i < (c/10000); i++) printf("#"); 
+                                    printf("\n26-35 : ");
+                                    for (i=1; i < (d/10000); i++) printf("#");
+                                    printf("\n36-45 : ");
+                                    for (i=1; i < (e/10000); i++) printf("#"); 
+                                    printf("\n46-55 : ");
+                                    for (i=1; i < (f/10000); i++) printf("#");
+                                    printf("\n56-65 : ");
+                                    for (i=1; i < (g/10000); i++) printf("#"); 
+                                    printf("\n66-75 : ");
+                                    for (i=1; i < (h/10000); i++) printf("#");
+                                    printf("\n76-85 : ");
+                                    for (i=1; i < (i/10000); i++) printf("#"); 
+                                    printf("\n86-95 : ");
+                                    for (i=1; i < (j/10000); i++) printf("#");
+                                    printf("\n95-105: ");
+                                    for (i=1; i < (k/10000); i++) printf("#"); 
+                                    printf("\n>105  : ");
+                                    for (i=1; i < (l/10000); i++) printf("#");
+                                    if (m == 0){
+                                        printf("\n");
+                                    }
+                                    else {
+                                        printf("\nNone  : ")
+                                        for (i=1; i < (m/10000); i++) printf("#");
+                                        printf("\n")
+                                    }
+                                }' 
+        fi
+    else
+    echo "$DATA" | awk -F, 'NR>1 {if (length($3) == 0){m++} 
+                                else if($3 <= 5){a++} 
+                                else if(($3 >= 6) && ($3 <= 15)){b++} 
+                                else if(($3 >= 16) && ($3 <= 25)){c++} 
+                                else if(($3 >= 26) && ($3 <= 35)){d++} 
+                                else if(($3 >= 36) && ($3 <= 45)){e++} 
+                                else if(($3 >= 46) && ($3 <= 55)){f++} 
+                                else if(($3 >= 56) && ($3 <= 65)){g++} 
+                                else if(($3 >= 66) && ($3 <= 75)){h++} 
+                                else if(($3 >= 76) && ($3 <= 85)){i++} 
+                                else if(($3 >= 86) && ($3 <= 95)){j++} 
+                                else if(($3 >= 96) && ($3 <= 105)){k++} 
+                                else if($3 > 105){l++} } 
+                                END{
+                                if (m == 0){printf("0-5   : %d\n6-15  : %d\n16-25 : %d\n26-35 : %d\n36-45 : %d\n46-55 : %d\n56-65 : %d\n66-75 : %d\n76-85 : %d\n86-95 : %d\n95-105: %d\n>105  : %d\n",a,b,c,d,e,f,g,h,i,j,k,l)} 
+                                else {printf("0-5   : %d\n6-15  : %d\n16-25 : %d\n26-35 : %d\n36-45 : %d\n46-55 : %d\n56-65 : %d\n66-75 : %d\n76-85 : %d\n86-95 : %d\n95-105: %d\n>105  : %d\nNone  : %d\n",a,b,c,d,e,f,g,h,i,j,k,l,m)}}'                
+    fi
+}
+
+daily(){
+    if [ $SF -eq 1 ]; then
+        if [ "$WIDTH" != "" ]; then
+            echo "$DATA" | awk -F, -v width="$WIDTH" 'BEGIN{max=0} NR>1 {if (!$2){$2="None"} day[$2]+=1} 
+                    END{
+                        for(i in day){
+                            if (day[i] > max)
+                                max = day[i]
+                        }
+                        krizek=int(max/width)
+                    }
+                    END{ 
+                        if (krizek==0){
+                            for (i in day)
+                                print i": "
+                        }
+                        else{ 
+                            for(i in day){ 
+                                printf("%s: ",i)
+                                for (j=1; j < (day[i]/krizek); j++){ 
+                                printf("#")
+                                }
+                                printf("\n")
+
+                            }
+                        }
+                    }' | sort
+        else
+            echo "$DATA" | awk -F, 'NR>1 {if (!$2){$2="None"} day[$2]+=1} 
+                                    END{ 
+                                        for(i in day){ 
+                                            printf("%s: ",i)
+                                            for (j=1; j < (day[i]/500); j++){ 
+                                            printf("#")
+                                            }
+                                            printf("\n")
+
+                                        }
+                                    }' | sort
+
+        fi
+    else
+        echo "$DATA" | awk -F, 'NR>1 {if (!$2){$2="None"} day[$2]+=1} END{ for(i in day) print i": "day[i] }' | sort
+    fi
+}
+
+monthly(){  
+    if [ $SF -eq 1 ]; then
+        if [ "$WIDTH" != "" ]; then
+            echo "$DATA" | awk -F, -v width="$WIDTH" 'BEGIN{max=0} NR>1 {if (!$2){$2="None"} month[substr($2, 1, 7)]+=1} 
+                    END{
+                        for(i in month){
+                            if (month[i] > max)
+                                max = month[i]
+                        }
+                        krizek=int(max/width)
+                    }
+                    END{ 
+                        if (krizek==0){
+                            for (i in month)
+                                print i": "
+                        }
+                        else{ 
+                            for(i in month){ 
+                                printf("%s: ",i)
+                                for (j=1; j < (month[i]/krizek); j++){ 
+                                printf("#")
+                                }
+                                printf("\n")
+
+                            }
+                        }
+                    }' | sort
+        else
+            echo "$DATA" | awk -F, 'NR>1 {if (!$2){$2="None"} month[substr($2, 1, 7)]+=1} 
+                                    END{ 
+                                        for(i in month){ 
+                                            printf("%s: ",i)
+                                            for (j=1; j < (month[i]/10000); j++){ 
+                                            printf("#")
+                                            }
+                                            printf("\n")
+
+                                        }
+                                    }' | sort
+
+        fi
+    else
+        echo "$DATA" | awk -F, 'NR>1 {if (!$2){$2="None"} month[substr($2, 1, 7)]+=1} END{ for(i in month) print i": "month[i] }' | sort
+    fi
+}
+
+yearly(){  
+    if [ $SF -eq 1 ]; then
+        if [ "$WIDTH" != "" ]; then
+            echo "$DATA" | awk -F, -v width="$WIDTH" 'BEGIN{max=0} NR>1 {if (!$2){$2="None"} year[substr($2, 1, 4)]+=1} 
+                    END{
+                        for(i in year){
+                            if (year[i] > max)
+                                max = year[i]
+                        }
+                        krizek=int(max/width)
+                    }
+                    END{ 
+                        if (krizek==0){
+                            for (i in year)
+                                print i": "
+                        }
+                        else{ 
+                            for(i in year){ 
+                                printf("%s: ",i)
+                                for (j=1; j < (year[i]/krizek); j++){ 
+                                printf("#")
+                                }
+                                printf("\n")
+
+                            }
+                        }
+                    }' | sort
+        else
+            echo "$DATA" | awk -F, 'NR>1 {if (!$2){$2="None"} year[substr($2, 1, 4)]+=1} 
+                                    END{ 
+                                        for(i in year){ 
+                                            printf("%s: ",i)
+                                            for (j=1; j < (year[i]/100000); j++){ 
+                                            printf("#")
+                                            }
+                                            printf("\n")
+
+                                        }
+                                    }' | sort
+
+        fi
+    else
+        echo "$DATA" | awk -F, 'NR>1 {if (!$2){$2="None"} year[substr($2, 1, 4)]+=1} END{ for(i in year) print i": "year[i] }' | sort
+    fi
+}
+
+
+countries(){  
+    if [ $SF -eq 1 ]; then
+        if [ "$WIDTH" != "" ]; then
+            echo "$DATA" | awk -F, -v width="$WIDTH" 'BEGIN{max=0} NR>1 {if (!$8 || $8 == "CZ"){next} country[$8]+=1} 
+                    END{
+                        for(i in country){
+                            if (country[i] > max)
+                                max = country[i]
+                        }
+                        krizek=int(max/width)
+                    }
+                    END{ 
+                        if (krizek==0){
+                            for (i in country)
+                                print i": "
+                        }
+                        else{ 
+                            for(i in country){ 
+                                printf("%s: ",i)
+                                for (j=1; j < (country[i]/krizek); j++){ 
+                                printf("#")
+                                }
+                                printf("\n")
+
+                            }
+                        }
+                    }' | sort
+        else
+            echo "$DATA" | awk -F, 'NR>1 {if (!$8 || $8 == "CZ"){next} country[$8]+=1;} 
+                                    END{ 
+                                        for(i in country){ 
+                                            printf("%s: ",i)
+                                            for (j=1; j < (country[i]/100); j++){ 
+                                            printf("#")
+                                            }
+                                            printf("\n")
+
+                                        }
+                                    }' | sort
+
+        fi
+    else
+        echo "$DATA" | awk -F, 'NR>1 {if (!$8 || $8 == "CZ"){next} country[$8]+=1;} END{ for(i in country) print i": "country[i] }' | sort
+    fi
+}
+
+districts(){
+    
+    if [ $SF -eq 1 ]; then
+        if [ "$WIDTH" != "" ]; then
+            echo "$DATA" | awk -F, -v width="$WIDTH" 'BEGIN{max=0} NR>1 {if (!$6){$6="None"} districts[$6]+=1} 
+                    END{
+                        for(i in districts){
+                            if (districts[i] > max)
+                                max = districts[i]
+                        }
+                        krizek=int(max/width)
+                    }
+                    END{ 
+                        if (krizek==0){
+                            for (i in districts)
+                                print i": "
+                        }
+                        else{ 
+                            for(i in districts){ 
+                                printf("%s: ",i)
+                                for (j=1; j < (districts[i]/krizek); j++){ 
+                                printf("#")
+                                }
+                                printf("\n")
+
+                            }
+                        }
+                    }' | sort
+        else
+            echo "$DATA" | awk -F, 'NR>1 {if (!$6){$6="None"} districts[$6]+=1} 
+                                    END{ 
+                                        for(i in districts){ 
+                                            printf("%s: ",i)
+                                            for (j=1; j < (districts[i]/1000); j++){ 
+                                            printf("#")
+                                            }
+                                            printf("\n")
+
+                                        }
+                                    }' | sort
+
+        fi
+    else
+        echo "$DATA" | awk -F, 'NR>1 {if (!$6){$6="None"} districts[$6]+=1} END{ for(i in districts) print i": "districts[i] }' | sort 
+    fi
+}
+
+regions(){  
+    if [ $SF -eq 1 ]; then
+        if [ "$WIDTH" != "" ]; then
+            echo "$DATA" | awk -F, -v width="$WIDTH" 'BEGIN{max=0} NR>1 {if (!$5){$5="None"} regions[$5]+=1} 
+                    END{
+                        for(i in regions){
+                            if (regions[i] > max)
+                                max = regions[i]
+                        }
+                        krizek=int(max/width)
+                    }
+                    END{ 
+                        if (krizek==0){
+                            for (i in regions)
+                                print i": "
+                        }
+                        else{ 
+                            for(i in regions){ 
+                                printf("%s: ",i)
+                                for (j=1; j < (regions[i]/krizek); j++){ 
+                                printf("#")
+                                }
+                                printf("\n")
+
+                            }
+                        }
+                    }' | sort
+        else
+            echo "$DATA" | awk -F, 'NR>1 {if (!$5){$5="None"} regions[$5]+=1} 
+                                    END{ 
+                                        for(i in regions){ 
+                                            printf("%s: ",i)
+                                            for (j=1; j < (regions[i]/10000); j++){ 
+                                            printf("#")
+                                            }
+                                            printf("\n")
+
+                                        }
+                                    }' | sort
+
+        fi
+    else
+        echo "$DATA" | awk -F, 'NR>1 {if (!$5){$5="None"} regions[$5]+=1} END{ for(i in regions) print i": "regions[i] }' | sort
+    fi
+}
+
+DATA=""
+declare -i AF=0
+declare -i BF=0
+declare -i CF=0
+declare -i DF=0
+declare -i GF=0
+declare -i SF=0
+COMMAND=""
+WIDTH=""
+DATEAFTER=""
+DATEBEFORE=""
+GENDER=""
+REGEXNUM='^[0-9]+$'
+
+
+while [ "$#" -gt 0 ]; do
+    case "$1" in
+        -h)
+            showhelp
+            exit 0
+        ;;
+
+        infected | merge | gender | age | daily | monthly | yearly | countries | districts | regions)
+            COMMAND="$1"
+            CF+=1
+            if [ $CF -eq 2 ]; then
+                echo "CHYBA! argument typu COMMAND muze byt jenom jednou"
+                exit 1 
+            fi
+            shift
+        ;;
+
+        -g)
+            if [ "$2" = M ] || [ "$2" = Z ]; then
+                GENDER="$2"
+            else
+                >&2 echo "CHYBA! spatne pouziti filtru -g."
+                exit 1
+            fi
+            shift
+            shift
+            GF=GF+1
+        ;;
+
+        -s)
+            if ! [[ $2 =~ $REGEXNUM ]]; then
+                shift
+            else
+                WIDTH="$2"
+                shift 
+                shift
+            fi
+            SF+=1
+        ;;
+        -a)
+        if [[ $2 =~ ^[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]$ ]] && date -d "$2" >/dev/null 2>&1; then
+            DATEAFTER="$2"
+                AF+=1
+        else
+            echo "CHYBA! spatne zadany format datumu / neplatny datum."
+            exit 1
+        fi
+        shift
+        shift
+        ;;
+
+        -b)
+        if [[ $2 =~ ^[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]$ ]] && date -d "$2" >/dev/null 2>&1; then
+            DATEBEFORE="$2"
+                BF+=1
+        else
+            echo "CHYBA! spatne zadany format datumu / neplatny datum."
+            exit 1
+        fi
+        shift
+        shift
+        ;;
+
+        *.csv)
+            if [ "$DATA" != "" ]; then 
+                DATA="$DATA
+$(cat $1 | tr -d " " | awk -F, 'NR>1 {if ($0 ~ /[a-zA-Z0-9]+/ && ($3 == int($3) || !$3)){print $0} else {next}}')"
+            else
+                DATA="$(cat $1 | tr -d " " | awk -F, '{if ($0 ~ /[a-zA-Z0-9]+/ && ($3 == int($3) || !$3 || $3 ~ /[a-z]/)){print $0} 
+                                            else {next}}')"
+            fi
+            shift
+        ;;
+
+        *.csv.bz2)
+            if [ "$DATA" != "" ]; then 
+                DATA="$DATA
+$(bzip2 -c -d -k $1 | tr -d " " | awk -F, 'NR>1 {if ($0 ~ /[a-zA-Z0-9]+/ && ($3 == int($3) || !$3)){print $0} else {next}}')"
+            else
+                DATA="$(bzip2 -c -d -k $1 | tr -d " " | awk -F, '{if ($0 ~ /[a-zA-Z0-9]+/ && ($3 == int($3) || !$3 || $3 ~ /[a-z]/)){print $0} 
+                                            else {next}}')"
+            fi
+            shift
+        ;;
+
+        *.csv.gz)
+                if [ "$DATA" != "" ]; then 
+                DATA="$DATA
+$(gzip -c -d -k $1 | tr -d " " | awk -F, 'NR>1 {if ($0 ~ /[a-zA-Z0-9]+/ && ($3 == int($3) || !$3)){print $0} else {next}}')"
+            else
+                DATA="$(gzip -c -d -k $1 | tr -d " " | awk -F, '{if ($0 ~ /[a-zA-Z0-9]+/ && ($3 == int($3) || !$3 || $3 ~ /[a-z]/)){print $0} 
+                                            else {next}}')"
+            fi
+            shift
+        ;;
+
+        *)
+            echo "neplatný argument/parameter. pro pomoc napište corona -h"
+            exit 1
+        ;;
+    esac
+done
+
+if [ $AF -gt 1 ] || [ $BF -gt 1 ] || [ $GF -gt 1 ] || [ $SF -gt 1 ]; then
+    echo "CHYBA! jednotliva filtry mozna pouzit jenom jednou"
+    exit 1
+fi
+
+if [ "$DATA" = "" ]; then
+    DATA="$(cat)"
+    DATA="$(echo "$DATA"| tr -d " " | awk -F, '{if (NR==1){print $0}; if ($0 ~ /[a-zA-Z0-9]+/ && ($3 == int($3) || !$3)){print $0} else {next}}')"
+fi
+
+filter
+command
