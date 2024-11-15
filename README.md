@@ -1,15 +1,19 @@
-# INP Project 1: Simple Instruction Set Processor
+# IOS: COVID-19 Records Analysis Script
 
-**Course:** Principles of Computer Engineering (INP)  
-**Language:** VHDL  
+**Course:** Operating Systems (IOS)  
+**Language:** Shell Script  
 
 ## Description
-Implemented a processor capable of executing programs in an extended BrainF*ck language. The project included program and data memory, input-output interface, and support for 10 instructions, including loops and memory manipulation.
+Implement a shell script, `corona`, to analyze records of individuals diagnosed with COVID-19 in the Czech Republic. The script can filter records and provide basic statistics based on given user-defined commands.
 
-## Deliverables
-- **`cpu.vhd`**: Processor implementation.
-- **`login.b`**: BrainF*ck program outputting the user login.
-- **`log.txt`**: Test report.
-- **`login.png`**: Simulation screenshot.
+### Key Commands
+- `infected`: Counts the number of infected individuals.
+- `gender`, `age`, `daily`, `monthly`, `yearly`: Provides statistics by various categories (e.g., gender, age, daily cases).
+- `countries`, `districts`, `regions`: Outputs statistics by geographic regions.
 
-**Points Received:** *20/23*  - -3 "code couldn't be synthetized."
+### Features
+- Supports filtering by date, gender, and region.
+- Merges and processes multiple log files, including compressed formats (.gz, .bz2).
+- Displays ASCII-based histograms for graphical data representation.
+
+**Points Received:** 15/15  
